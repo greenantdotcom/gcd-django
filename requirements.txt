@@ -1,9 +1,10 @@
 BeautifulSoup
-Django
+Django == 1.4.5
 MySQL-python
 Pillow < 2.0
 PyICU
 PyYAML
+django-piston
 Pygments
 RBTools
 South

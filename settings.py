@@ -48,6 +48,8 @@ DATABASES = {
 
 # middleware settings, LocalMiddleware is for internationalisation
 MIDDLEWARE_CLASSES = (
+   ## http://www.debugrelease.com/2012/03/26/enable-gzip-compression-in-django/
+   'django.middleware.gzip.GZipMiddleware',
    'django.middleware.csrf.CsrfViewMiddleware',
    'django.middleware.clickjacking.XFrameOptionsMiddleware',
    'django.contrib.sessions.middleware.SessionMiddleware',
@@ -92,6 +94,7 @@ INSTALLED_APPS = (
     'taggit',
     'imagekit',
     'south',
+    'apps.api',
 )
 
 # Used to provide a seed in secret-key hashing algorithms.
@@ -128,19 +131,19 @@ ABSOLUTE_URL_OVERRIDES = {
 }
 
 # for local installations, who don't have memcached, put this:
-#CACHES = {
-#    'default': {
-#        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
-#        'LOCATION': 'unique-snowflake'
-#    }
-#}
-# in your settings_local.py as an override.
 CACHES = {
     'default': {
-        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
-        'LOCATION': '127.0.0.1:11211',
+        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
+        'LOCATION': 'unique-snowflake'
     }
 }
+# in your settings_local.py as an override.
+#CACHES = {
+#    'default': {
+#        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
+#        'LOCATION': '127.0.0.1:11211',
+#    }
+#}
 
 # have two choices for caches, this one has persistent, cached session data
 SESSION_ENGINE = 'django.contrib.sessions.backends.cached_db'
@@ -285,3 +288,10 @@ if READ_ONLY or NO_OI:
     MIDDLEWARE_CLASSES += \
       ('apps.middleware.read_only.ReadOnlyMiddleware',)
 
+################
+# Piston flags
+################
+
+PISTON_DISPLAY_ERRORS = True
+# PISTON_STREAM_OUTPUT = True
+PISTON_EMAIL_ERRORS = False

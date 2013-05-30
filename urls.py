@@ -34,6 +34,7 @@ basic_patterns = patterns('',
     url(r'^donate/thanks/$', direct_to_template,
         { 'template': 'gcd/donate/thanks.html' }, name='donate_thanks'),
     url(r'^jsi18n/$', 'django.views.i18n.javascript_catalog', js_info_dict),
+    url(r'^api/', include('apps.api.urls')),
 )
 
 account_patterns = patterns('',
