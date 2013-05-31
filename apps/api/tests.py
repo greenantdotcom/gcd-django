@@ -14,7 +14,7 @@ from django.test import TestCase
 
 ### http://thomas.pelletier.im/2009/12/test-your-django-piston-api-with-auth/
 
-class TestPublisher(TestCase):
+class PublisherTest(TestCase):
     def test_publisher_list(self):
         response = self.client.get('/api/publisher', {})
         self.assertEqual(response.status_code, 200)
@@ -23,29 +23,50 @@ class TestPublisher(TestCase):
         response = self.client.get('/api/publisher/88', {})
         self.assertEqual(response.status_code, 200)
     
+    def test_real_publisher_brands(self):
+        response = self.client.get('/api/publisher/88/brands', {})
+        self.assertEqual(response.status_code, 200)
+    
+    def test_real_publisher_indicia_publishers(self):
+        response = self.client.get('/api/publisher/88/indicia_publishers', {})
+        self.assertEqual(response.status_code, 200)
+    
+    def test_real_publisher_series_found(self):
+        response = self.client.get('/api/publisher/88/series')
+        self.assertEqual(response.status_code, 200)
+        ## assert size
+    
+    ## -------------------------
+    
     def test_missing_publisher_info(self):
         response = self.client.get('/api/publisher/999999')
         self.assertEqual(response.status_code, 404)
     
-    def test_brands_found(self):
-        response = self.client.get('/api/publisher/88/brands')
+    def test_missing_publisher_brands(self):
+        response = self.client.get('/api/publisher/999999/brands', {})
         self.assertEqual(response.status_code, 200)
-        ## assert size
     
-    def test_series_found(self):
-        response = self.client.get('/api/publisher/88/series')
+    def test_missing_publisher_indicia_publishers(self):
+        response = self.client.get('/api/publisher/999999/indicia_publishers', {})
         self.assertEqual(response.status_code, 200)
-        ## assert size
+    
+    def test_missing_publisher_series(self):
+        response = self.client.get('/api/publisher/999999/series', {})
+        self.assertEqual(response.status_code, 200)
 
-class TestBrand(TestCase):
+class BrandTest(TestCase):
     def test_list(self):
         response = self.client.get('/api/brand', {})
         self.assertEqual(response.status_code, 200)
     
     def test_valid_item(self):
-        response = self.client.get('/api/brand', {})
+        response = self.client.get('/api/brand/33', {})
         self.assertEqual(response.status_code, 200)
         
+class IndiciaPublisherTest(TestCase):
+    def test_valid_item(self):
+        response = self.client.get('/api/indicia_publisher/10', {})
+        self.assertEqual(response.status_code, 200)
     
     # ### TODO: Helpful if there was a deleted entity in the database...
     # def test_deleted_publisher_info(self):
