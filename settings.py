@@ -166,6 +166,11 @@ DATETIME_FORMAT = 'Y-m-d H:i:s'
 COMPRESS_CSS_FILTERS = ['compressor.filters.css_default.CssAbsoluteFilter',
                         'compressor.filters.csstidy.CSSTidyFilter']
 
+COMPRESS_ROOT = abspath(join(dirname(__file__),'media'));
+
+# print COMPRESS_ROOT
+# exit( 1 )
+
 # for front page editing
 TEMPLATESADMIN_TEMPLATE_DIRS = [abspath(join(dirname(__file__),
                                 'templates/gcd/front_page/')),]
