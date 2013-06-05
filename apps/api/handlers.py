@@ -8,33 +8,30 @@ from piston.resource import Resource
 class CountryHandler(BaseHandler):
     """
     """
-    exclude= ('id')
     model = Country
-
+    
 class PublisherHandler(BaseHandler):
     """
     Defines how publishers are returned and fetched
     """
     exclude= ('deleted','reserved')
+    include=('id')
     model = Publisher
 
 class SeriesHandler(BaseHandler):
     """
     """
-    exclude= ('deleted')
+    include=('id')
+    exclude=()
     model = Series
 
 
 class BrandHandler(BaseHandler):
     """
     """
-    exclude= ('deleted')
+    include=('id')
+    exclude=()
     model = Brand
-
-class IndiciaPublisherHandler(BaseHandler):
-    """
-    """
-    model = IndiciaPublisher
 
 class PublisherSeriesHandler(BaseHandler):
     """
@@ -47,9 +44,6 @@ class PublisherIndiciaHandler(BaseHandler):
     """
     Defines how publishers are returned and fetched
     """
-    # @staticmethod
-    # def resource_uri():
-    #     return ('api_blogpost_handler', ['id'])
     
     def read(self, request, id):
         return IndiciaPublisher.objects.filter(parent_id=int(id),parent__deleted=0,deleted=0).order_by('name')
@@ -58,52 +52,68 @@ class PublisherBrandHandler(BaseHandler):
     """
     Defines how publishers are returned and fetched
     """
-#    fields = ( 'id', 'name', )
     
     def read(self, request, id):
         return Brand.objects.filter(parent_id=int(id),deleted=0)
 
-
-class CountryHandler(BaseHandler):
-    """
-    Handles returning countries in a consistent manner
-    """
-    fields = ( 'id', 'name', 'code', )
-    model = Country
-    ## TODO: Uppercase the country code?
-
-
-
-
-class SeriesHandler(BaseHandler):
-    """
-    Defines how series are returned and fetched
-    """
-    fields = ( 'id', 'name' )
-    model = Series
-    
-    # def read(self, request, pk=None):
-    #     if pk is not None:
-    #         return Publisher.objects.get(pk=int(pk))
-    #     paginator = Paginator(Publisher.objects.all(), 200)
-    #     return paginator.page(int(request.GET.get('page', 1))).object_list
-
-class SeriesIssueHandler(BaseHandler):
-    """
-    Defines how series are returned and fetched
-    """
-    fields = ( 'id', 'title', 'number', 'price', 'isbn', 'publication_date', 'page_count', 'short_name', 'full_name' )
-    model = Issue
-    
-    def read(self, request, id):
-        p = Series.objects.get(id=int(id))
-        ## Return them in publication sort order
-        return Issue.objects.filter(series_id=id, deleted=0).order_by( 'key_date', 'volume', 'number');
-
-class BrandHandler(BaseHandler):
+class IndiciaPublisherHandler(BaseHandler):
     """
     """
     model = IndiciaPublisher
+    exclude=()
+
+class IndiciaPublisherSeriesHandler(BaseHandler):
+    """
+    TBD - How can I properly (if at all) query the issues attached to the ind_pub and then get the brands in that set. And if I do, what should that data actually look like?
+    """
+    
+    def read(self, request, id):
+        def mapper(item):
+            return item.series
+        
+        issues = IndiciaPublisher.objects.get(pk=int(id)).issue_set.order_by('sort_code').all()
+        
+        return set(map(mapper,issues))
+
+class IndiciaPublisherIssuesHandler(BaseHandler):
+    """
+    """
+    def read(self, request, id):
+        return IndiciaPublisher.objects.get(pk=int(id)).issue_set.order_by('sort_code').all()
+
+class SeriesIssueHandler(BaseHandler):
+    def read(self,request,id):
+        return Series.objects.get(pk=int(id)).issue_set.order_by('sort_code').all()
+
+class BrandSeriesHandler(BaseHandler):
+    def read(self,request,id):
+        def mapper(item):
+            return item.series
+        
+        issues = Brand.objects.get(pk=int(id)).issue_set.order_by('sort_code').all()
+        
+        return set(map(mapper,issues))
+
+class BrandIssueHandler(BaseHandler):
+    def read(self,request,id):
+        return Brand.objects.get(pk=int(id)).issue_set.order_by('sort_code').all()
+
+# class SeriesIssueHandler(BaseHandler):
+#     """
+#     Defines how series are returned and fetched
+#     """
+#     fields = ( 'id', 'title', 'number', 'price', 'isbn', 'publication_date', 'page_count', 'short_name', 'full_name' )
+#     model = Issue
+#     
+#     def read(self, request, id):
+#         p = Series.objects.get(id=int(id))
+#         ## Return them in publication sort order
+#         return Issue.objects.filter(series_id=id, deleted=0).order_by( 'key_date', 'volume', 'number');
+# 
+# class BrandHandler(BaseHandler):
+#     """
+#     """
+#     model = IndiciaPublisher
 
 class IssueHandler(BaseHandler):
     """

@@ -1,0 +1,1688 @@
+# Publishers
+
+- fields: {brand_count: 146, country: 225, created: !!timestamp '1999-06-15 00:00:00',
+    deleted: false, imprint_count: 0, indicia_publisher_count: 97, is_master: true,
+    issue_count: 40683, modified: !!timestamp '2013-05-14 04:07:04', name: Marvel,
+    notes: '', parent: null, reserved: false, series_count: 5898, url: 'http://marvel.com',
+    year_began: 1939, year_began_uncertain: false, year_ended: null, year_ended_uncertain: false}
+  model: gcd.publisher
+  pk: 78
+
+
+# Brands
+
+- fields: {created: !!timestamp '2009-12-07 00:00:00', deleted: false, issue_count: 5,
+    modified: !!timestamp '2013-02-14 21:57:12', name: 2099; Marvel, notes: '', parent: 78,
+    reserved: false, url: '', year_began: 1992, year_began_uncertain: false, year_ended: 1998,
+    year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 53
+- fields: {created: !!timestamp '2010-09-11 00:00:00', deleted: false, issue_count: 20,
+    modified: !!timestamp '2012-05-01 00:00:00', name: 2099; Marvel Comics, notes: '',
+    parent: 78, reserved: false, url: '', year_began: 1995, year_began_uncertain: false,
+    year_ended: 1996, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2527
+- fields: {created: !!timestamp '2010-08-31 00:00:00', deleted: false, issue_count: 1,
+    modified: !!timestamp '2010-08-31 00:00:00', name: 2099; Spider-Man Group; Marvel
+      Comics, notes: 'Marvel Comics, 2099, and Spider-Man group logos', parent: 78,
+    reserved: false, url: '', year_began: 1995, year_began_uncertain: false, year_ended: 1995,
+    year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2487
+- fields: {created: !!timestamp '2010-08-28 00:00:00', deleted: false, issue_count: 9,
+    modified: !!timestamp '2013-03-08 19:21:18', name: 70 Years of Marvel Comics,
+    notes: '', parent: 78, reserved: false, url: 'http://www.marvel.com/', year_began: 2009,
+    year_began_uncertain: false, year_ended: 2009, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2471
+- fields: {created: !!timestamp '2010-02-19 00:00:00', deleted: false, issue_count: 58,
+    modified: !!timestamp '2011-06-12 00:00:00', name: A Lovers Magazine, notes: used
+      from approximately October 1949 to June 1950 on romance titles, parent: 78,
+    reserved: false, url: '', year_began: 1949, year_began_uncertain: false, year_ended: 1950,
+    year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 451
+- fields: {created: !!timestamp '2011-06-02 00:00:00', deleted: false, issue_count: 2,
+    modified: !!timestamp '2013-05-08 11:26:31', name: A Marvel Comic, notes: 'Horizontal
+      text in the bottom corner, used on at least one issue during at least one month
+      in 1947 around the same time as "Marvel Group" and "A Marvel Magazine", both
+      of which used a peeled-back upper corner design.', parent: 78, reserved: false,
+    url: '', year_began: 1947, year_began_uncertain: false, year_ended: 1947, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 3317
+- fields: {created: !!timestamp '2012-03-03 00:00:00', deleted: false, issue_count: 14,
+    modified: !!timestamp '2012-04-26 00:00:00', name: A Marvel Comics Publication,
+    notes: 'Used only on The Twelve (Marvel, 2008 series)', parent: 78, reserved: false,
+    url: '', year_began: 2008, year_began_uncertain: false, year_ended: 2012, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 4036
+- fields: {created: !!timestamp '2009-12-12 00:00:00', deleted: false, issue_count: 22,
+    modified: !!timestamp '2013-05-10 01:34:29', name: 'A Marvel Magazine [corner
+      peeled back]', notes: This brand appeared on regular comics in 1946-1947 in
+      the upper corner as if the cover was peeled back to reveal the logo.  A separate
+      brand with the same name but a different appearance was used on magazine publications
+      in the 80's and early 90's., parent: 78, reserved: false, url: '', year_began: 1946,
+    year_began_uncertain: false, year_ended: 1947, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 106
+- fields: {created: !!timestamp '2011-05-30 00:00:00', deleted: false, issue_count: 40,
+    modified: !!timestamp '2013-03-24 17:01:45', name: 'A Marvel Magazine [plain text]',
+    notes: Appeared on Marvel's magazine publications above the issue number box in
+      the 80's up through cover date May 1990.  A separate brand with the same name
+      but a distinctive appearance (as if the corner of the cover was peeled back)
+      was used on comics in the late 40's., parent: 78, reserved: false, url: '',
+    year_began: 1980, year_began_uncertain: false, year_ended: 1990, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 3310
+- fields: {created: !!timestamp '2013-03-06 07:09:14', deleted: false, issue_count: 3,
+    modified: !!timestamp '2013-03-24 13:40:52', name: 'A Marvel Magazine [Spider-Man]',
+    notes: '"A Marvel Magazine" in a circle, with Spider-Man''s face inside a concentric
+      circle.', parent: 78, reserved: false, url: '', year_began: 1980, year_began_uncertain: true,
+    year_ended: null, year_ended_uncertain: true}
+  model: gcd.brand
+  pk: 4658
+- fields: {created: !!timestamp '2010-09-13 00:00:00', deleted: false, issue_count: 4,
+    modified: !!timestamp '2012-08-05 00:00:00', name: A Marvel Movie Special, notes: '',
+    parent: 78, reserved: false, url: '', year_began: 1981, year_began_uncertain: false,
+    year_ended: 1983, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2535
+- fields: {created: !!timestamp '2011-01-18 00:00:00', deleted: false, issue_count: 1,
+    modified: !!timestamp '2011-01-18 00:00:00', name: A Romance! Magazine, notes: '',
+    parent: 78, reserved: false, url: '', year_began: 1950, year_began_uncertain: false,
+    year_ended: 1950, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2872
+- fields: {created: !!timestamp '2009-12-13 00:00:00', deleted: false, issue_count: 1,
+    modified: !!timestamp '2009-12-13 00:00:00', name: A Timely Comics Riot of Fun,
+    notes: 'The red, white and blue Timely shield with "Riot of Fun" scrawled on the
+      lower portion as if by a child.', parent: 78, reserved: false, url: '', year_began: 1942,
+    year_began_uncertain: false, year_ended: 1942, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 130
+- fields: {created: !!timestamp '2010-09-26 00:00:00', deleted: false, issue_count: 37,
+    modified: !!timestamp '2012-12-16 15:33:21', name: Actual Ender's Game; Marvel,
+    notes: '', parent: 78, reserved: false, url: '', year_began: 2008, year_began_uncertain: false,
+    year_ended: null, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2570
+- fields: {created: !!timestamp '2012-08-10 00:00:00', deleted: false, issue_count: 5,
+    modified: !!timestamp '2012-08-11 00:00:00', name: Actual Ender's Game; Marvel
+      Premiere Edition, notes: For collected editions of Ender's Game comics., parent: 78,
+    reserved: false, url: '', year_began: 2009, year_began_uncertain: false, year_ended: null,
+    year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 4261
+- fields: {created: !!timestamp '2010-10-16 00:00:00', deleted: false, issue_count: 1,
+    modified: !!timestamp '2010-10-16 00:00:00', name: Archie Comics; Marvel Comics,
+    notes: '', parent: 78, reserved: false, url: '', year_began: 1994, year_began_uncertain: false,
+    year_ended: 1994, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2613
+- fields: {created: !!timestamp '2009-12-09 00:00:00', deleted: false, issue_count: 1633,
+    modified: !!timestamp '2013-05-12 15:35:55', name: 'Atlas [black & white]', notes: "Black\
+      \ and white globe, usually with longitude and latitude lines, with a banner\
+      \ across it reading \"Atlas\" in black letters.  See also a color version used\
+      \ in 1944.\r\n\r\nAccording to an article in Alter Ego (vol. 3) #49 by Tom Lammers,\
+      \ Atlas was intended as a publisher's brand, not as a distribution mark.  The\
+      \ Atlas logo was first used on November 1951 issues, but Kable News Co. continued\
+      \ to distribute the issues through the August 1952 issues, and it's \"K\" logo\
+      \ and the logo of the independent distributors' union continued to appear along\
+      \ side the Atlas globe.  The Atlas globe also remained in use through the September\
+      \ 1957 issues, plus one of the two issues cover-dated October 1957, while A.N.C.\
+      \ had taken over distribution as of November, 1956.  No indication of A.N.C.'s\
+      \ distribution appeared on the cover while the Atlas globe remained.\r\n\r\n\
+      Additionally, interior pages encouraged readers to \"look for the Atlas seal\
+      \ on the cover!\"", parent: 78, reserved: false, url: '', year_began: 1951,
+    year_began_uncertain: false, year_ended: 1957, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 93
+- fields: {created: !!timestamp '2010-11-30 00:00:00', deleted: false, issue_count: 4,
+    modified: !!timestamp '2012-09-29 00:00:00', name: 'Atlas [color globe]', notes: "Globe\
+      \ with the U.S. in blue, Canada and Mexico in dark green, oceans in white, and\
+      \ an \"Atlas\" banner with red letters across it.  Seen as late as 1948 on non-comics\
+      \ publications, no comics appearances outside of 1944 currently known.\r\n\r\
+      \nSee also the black-and-white wireframe globe Atlas brand used in the 50's.\r\
+      \n", parent: 78, reserved: false, url: '', year_began: 1944, year_began_uncertain: false,
+    year_ended: 1944, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2721
+- fields: {created: !!timestamp '2010-10-26 00:00:00', deleted: false, issue_count: 5,
+    modified: !!timestamp '2012-08-05 00:00:00', name: Avengers Group; Marvel Comics,
+    notes: 'When Marvel had five editors-in-chief, each office had separate brands.',
+    parent: 78, reserved: false, url: '', year_began: 1995, year_began_uncertain: false,
+    year_ended: 1997, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2650
+- fields: {created: !!timestamp '2011-04-07 00:00:00', deleted: false, issue_count: 1,
+    modified: !!timestamp '2011-04-08 00:00:00', name: Captain America 70th Anniversary,
+    notes: '', parent: 78, reserved: false, url: '', year_began: 2011, year_began_uncertain: false,
+    year_ended: 2011, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 3130
+- fields: {created: !!timestamp '2011-05-07 00:00:00', deleted: false, issue_count: 1,
+    modified: !!timestamp '2011-05-10 00:00:00', name: Captain America 70th Anniversary;
+      Marvel, notes: '', parent: 78, reserved: false, url: '', year_began: 2011, year_began_uncertain: false,
+    year_ended: 2011, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 3221
+- fields: {created: !!timestamp '2011-03-07 00:00:00', deleted: false, issue_count: 13,
+    modified: !!timestamp '2012-10-21 13:23:44', name: Crossgen; Marvel, notes: '',
+    parent: 78, reserved: false, url: '', year_began: 2011, year_began_uncertain: false,
+    year_ended: 2012, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 3029
+- fields: {created: !!timestamp '2010-03-18 00:00:00', deleted: false, issue_count: 2,
+    modified: !!timestamp '2013-03-10 17:19:26', name: DC and Marvel Present, notes: Used
+      for joint publications with DC., parent: 78, reserved: false, url: '', year_began: 1981,
+    year_began_uncertain: false, year_ended: 1982, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 584
+- fields: {created: !!timestamp '2011-05-26 00:00:00', deleted: false, issue_count: 19,
+    modified: !!timestamp '2012-12-30 20:15:54', name: Disney Comics, notes: '', parent: 78,
+    reserved: false, url: '', year_began: 2011, year_began_uncertain: false, year_ended: null,
+    year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 3286
+- fields: {created: !!timestamp '2010-03-09 00:00:00', deleted: false, issue_count: 17,
+    modified: !!timestamp '2013-03-04 17:40:01', name: Dynamite Entertainment; Marvel,
+    notes: '', parent: 78, reserved: false, url: '', year_began: 2007, year_began_uncertain: false,
+    year_ended: null, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 531
+- fields: {created: !!timestamp '2010-10-25 00:00:00', deleted: false, issue_count: 31,
+    modified: !!timestamp '2013-03-30 12:40:00', name: e, notes: '', parent: 78, reserved: false,
+    url: '', year_began: 1987, year_began_uncertain: false, year_ended: 1993, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2643
+- fields: {created: !!timestamp '2011-04-25 00:00:00', deleted: false, issue_count: 18,
+    modified: !!timestamp '2012-08-14 00:00:00', name: e; Epic Graphic Novel, notes: '',
+    parent: 78, reserved: false, url: '', year_began: 1987, year_began_uncertain: false,
+    year_ended: 1994, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 3176
+- fields: {created: !!timestamp '2011-11-28 00:00:00', deleted: false, issue_count: 4,
+    modified: !!timestamp '2012-11-03 03:30:53', name: e; Marvel Comics, notes: '',
+    parent: 78, reserved: false, url: '', year_began: 1987, year_began_uncertain: true,
+    year_ended: 1993, year_ended_uncertain: true}
+  model: gcd.brand
+  pk: 3840
+- fields: {created: !!timestamp '2010-01-22 00:00:00', deleted: false, issue_count: 3,
+    modified: !!timestamp '2012-08-14 00:00:00', name: Epic, notes: Succeeded to the
+      "Epic; Marvel" brand (2003-2004)., parent: 78, reserved: false, url: '', year_began: 2004,
+    year_began_uncertain: false, year_ended: 2004, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 303
+- fields: {created: !!timestamp '2010-01-22 00:00:00', deleted: false, issue_count: 308,
+    modified: !!timestamp '2013-05-10 19:44:25', name: Epic Comics, notes: '', parent: 78,
+    reserved: false, url: '', year_began: 1987, year_began_uncertain: false, year_ended: 1993,
+    year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 305
+- fields: {created: !!timestamp '2010-07-22 00:00:00', deleted: false, issue_count: 31,
+    modified: !!timestamp '2012-08-12 00:00:00', name: Epic Comics; A Shadowline Saga,
+    notes: '', parent: 78, reserved: false, url: '', year_began: 1988, year_began_uncertain: false,
+    year_ended: 1990, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2028
+- fields: {created: !!timestamp '2010-01-22 00:00:00', deleted: false, issue_count: 35,
+    modified: !!timestamp '2012-12-31 05:16:46', name: Epic Comics; Heavy Hitters,
+    notes: '', parent: 78, reserved: false, url: '', year_began: 1993, year_began_uncertain: false,
+    year_ended: 1993, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 302
+- fields: {created: !!timestamp '2009-12-07 00:00:00', deleted: false, issue_count: 278,
+    modified: !!timestamp '2013-05-07 16:15:53', name: Epic Comics; Marvel, notes: '',
+    parent: 78, reserved: false, url: '', year_began: 1982, year_began_uncertain: false,
+    year_ended: 1994, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 54
+- fields: {created: !!timestamp '2011-04-02 00:00:00', deleted: false, issue_count: 7,
+    modified: !!timestamp '2012-11-03 08:02:40', name: Epic Comics; Marvel Comics,
+    notes: '', parent: 78, reserved: false, url: '', year_began: 1995, year_began_uncertain: false,
+    year_ended: 1995, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 3088
+- fields: {created: !!timestamp '2011-07-09 00:00:00', deleted: false, issue_count: 4,
+    modified: !!timestamp '2012-08-05 00:00:00', name: Epic Comics; Marvel Comics
+      Group, notes: '', parent: 78, reserved: false, url: '', year_began: 1982, year_began_uncertain: false,
+    year_ended: 1983, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 3415
+- fields: {created: !!timestamp '2010-01-22 00:00:00', deleted: false, issue_count: 11,
+    modified: !!timestamp '2012-08-12 00:00:00', name: Epic; Marvel, notes: '', parent: 78,
+    reserved: false, url: '', year_began: 2003, year_began_uncertain: false, year_ended: 2004,
+    year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 304
+- fields: {created: !!timestamp '2010-10-26 00:00:00', deleted: false, issue_count: 1,
+    modified: !!timestamp '2012-08-10 00:00:00', name: Fantastic Four Group; Marvel
+      Comics, notes: 'When Marvel had five editors-in-chief, each office had separate
+      brands.', parent: 78, reserved: false, url: '', year_began: 1996, year_began_uncertain: false,
+    year_ended: 1996, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2648
+- fields: {created: !!timestamp '2012-10-25 19:41:40', deleted: false, issue_count: 162,
+    modified: !!timestamp '2013-05-03 18:49:40', name: 'Flying Fanny, The', notes: '"Get
+      more laughs, cartoons, fun, when you get the cartoon magazine with THE FLYING
+      FANNY on the cover."    This brand ran only on the cartoon magazines.', parent: 78,
+    reserved: false, url: '', year_began: 1968, year_began_uncertain: false, year_ended: 1974,
+    year_ended_uncertain: true}
+  model: gcd.brand
+  pk: 4395
+- fields: {created: !!timestamp '2010-10-26 00:00:00', deleted: false, issue_count: 1,
+    modified: !!timestamp '2012-08-10 00:00:00', name: Ghost Rider Group; Marvel Comics,
+    notes: 'When Marvel had five editors-in-chief, each office had separate brands.',
+    parent: 78, reserved: false, url: '', year_began: 1997, year_began_uncertain: false,
+    year_ended: 1997, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2651
+- fields: {created: !!timestamp '2011-11-13 00:00:00', deleted: false, issue_count: 13,
+    modified: !!timestamp '2011-11-28 00:00:00', name: 'Heavy Hitters; Epic Comics
+      e [inverted triangle]', notes: '"Heavy Hitters" across the top of the triangle,
+      then "Epic Comics" in the middle, with the small "e" in the point.', parent: 78,
+    reserved: false, url: '', year_began: 1993, year_began_uncertain: true, year_ended: 1994,
+    year_ended_uncertain: true}
+  model: gcd.brand
+  pk: 3798
+- fields: {created: !!timestamp '2010-07-13 00:00:00', deleted: false, issue_count: 5,
+    modified: !!timestamp '2012-11-15 17:46:11', name: "I \u2665 Marvel", notes: '',
+    parent: 78, reserved: false, url: '', year_began: 2006, year_began_uncertain: false,
+    year_ended: 2006, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 1973
+- fields: {created: !!timestamp '2009-12-07 00:00:00', deleted: false, issue_count: 134,
+    modified: !!timestamp '2013-04-17 16:15:18', name: Icon, notes: '', parent: 78,
+    reserved: false, url: 'http://marvel.com/comics/icon', year_began: 2004, year_began_uncertain: false,
+    year_ended: null, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 56
+- fields: {created: !!timestamp '2010-10-22 00:00:00', deleted: false, issue_count: 29,
+    modified: !!timestamp '2013-04-13 18:05:26', name: Icon; Millarworld, notes: 'First
+      used on Nemesis #3 (Nov 2010)', parent: 78, reserved: false, url: '', year_began: 2010,
+    year_began_uncertain: false, year_ended: null, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2635
+- fields: {created: !!timestamp '2009-12-08 00:00:00', deleted: false, issue_count: 32,
+    modified: !!timestamp '2011-02-28 00:00:00', name: M-Tech, notes: '', parent: 78,
+    reserved: false, url: '', year_began: 1999, year_began_uncertain: false, year_ended: 2000,
+    year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 64
+- fields: {created: !!timestamp '2009-12-08 00:00:00', deleted: false, issue_count: 0,
+    modified: !!timestamp '2013-01-07 07:19:46', name: Malibu, notes: '', parent: 78,
+    reserved: false, url: '', year_began: 1995, year_began_uncertain: false, year_ended: 1997,
+    year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 65
+- fields: {created: !!timestamp '2010-04-17 00:00:00', deleted: false, issue_count: 63,
+    modified: !!timestamp '2013-05-03 05:15:57', name: Malibu Comics, notes: '', parent: 78,
+    reserved: false, url: '', year_began: 1995, year_began_uncertain: false, year_ended: 1996,
+    year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 885
+- fields: {created: !!timestamp '2011-01-21 00:00:00', deleted: false, issue_count: 2,
+    modified: !!timestamp '2012-08-05 00:00:00', name: Malibu Comics; Marvel Comics,
+    notes: '', parent: 78, reserved: false, url: '', year_began: 1995, year_began_uncertain: false,
+    year_ended: 1995, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2881
+- fields: {created: !!timestamp '2010-09-12 00:00:00', deleted: false, issue_count: 3,
+    modified: !!timestamp '2011-04-05 00:00:00', name: Malibu Comics; Marvel Universe,
+    notes: '', parent: 78, reserved: false, url: '', year_began: 1995, year_began_uncertain: false,
+    year_ended: 1995, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2530
+- fields: {created: !!timestamp '2012-07-04 00:00:00', deleted: false, issue_count: 26,
+    modified: !!timestamp '2013-02-24 17:27:59', name: Malibu Comics; Ultraverse,
+    notes: '', parent: 78, reserved: false, url: '', year_began: 1995, year_began_uncertain: false,
+    year_ended: 1996, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 4216
+- fields: {created: !!timestamp '2009-12-07 00:00:00', deleted: false, issue_count: 10009,
+    modified: !!timestamp '2013-05-15 00:44:57', name: Marvel, notes: "Periods of\
+      \ use:  1983-1990, 2001-present\r\n\r\nThere have been several variations in\
+      \ font, placement and trade dress with this brand.  During the 80's, the box\
+      \ with the issue number and price was square or in the shape of an \"M\" depending\
+      \ on whether it was direct market, newsstand or subscription.\r\n\r\nMarvel\
+      \ started putting \".com\" in its logo box in 2006, then abandoned the practice\
+      \ for a while, and then resumed in 2007- after some discussion, this is not\
+      \ considered to be a separate brand.  In the same period, Marvel also began\
+      \ integrating descriptions such as \"Variant Edition\", \"Limited Series\" and\
+      \ \"One-Shot\" in the logo box in the same position.\r\n\r\n", parent: 78, reserved: false,
+    url: '', year_began: 1983, year_began_uncertain: false, year_ended: null, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 33
+- fields: {created: !!timestamp '2011-02-18 00:00:00', deleted: false, issue_count: 10,
+    modified: !!timestamp '2012-08-13 00:00:00', name: Marvel 2099, notes: '', parent: 78,
+    reserved: false, url: '', year_began: 1995, year_began_uncertain: false, year_ended: 1996,
+    year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2975
+- fields: {created: !!timestamp '2010-05-28 00:00:00', deleted: false, issue_count: 313,
+    modified: !!timestamp '2013-03-19 13:17:43', name: Marvel 25th Anniversary, notes: Used
+      on Marvel titles published in calendar year 1986 (usually April 1986 - March
+      1987 cover dates)., parent: 78, reserved: false, url: '', year_began: 1986,
+    year_began_uncertain: false, year_ended: 1987, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 1518
+- fields: {created: !!timestamp '2010-11-07 00:00:00', deleted: false, issue_count: 14,
+    modified: !!timestamp '2011-03-12 00:00:00', name: Marvel 3000, notes: '', parent: 78,
+    reserved: false, url: '', year_began: 1994, year_began_uncertain: false, year_ended: 1995,
+    year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2672
+- fields: {created: !!timestamp '2011-02-13 00:00:00', deleted: false, issue_count: 3,
+    modified: !!timestamp '2012-08-05 00:00:00', name: Marvel Absurd, notes: '', parent: 78,
+    reserved: false, url: '', year_began: 1995, year_began_uncertain: false, year_ended: 1996,
+    year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2965
+- fields: {created: !!timestamp '2010-12-14 00:00:00', deleted: false, issue_count: 114,
+    modified: !!timestamp '2012-10-21 08:01:09', name: Marvel Adventures; Marvel,
+    notes: 'Marvel replaced their kid friendly "Marvel Age" line of comics in 2005
+      with the "Marvel Adventures" brand. Brand has a distinctive red band across
+      the top of the cover with the "Marvel Adventures" logo emblazoned on it. In
+      2010, the red band was dropped and "Marvel Adventures" became part of the title
+      name.', parent: 78, reserved: false, url: '', year_began: 2005, year_began_uncertain: false,
+    year_ended: 2010, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2773
+- fields: {created: !!timestamp '2009-12-07 00:00:00', deleted: false, issue_count: 46,
+    modified: !!timestamp '2013-01-20 10:44:51', name: Marvel Age, notes: '"Marvel
+      Age" was a short-lived imprint of "ALL AGES" titles created especially for new
+      and young readers featuring some of the "best" Marvel stories of the last few
+      years, as well as new, contemporary versions of some of the "greatest" stories
+      from Marvel mythology. After almost one short year, the imprint was rebooted
+      as "Marvel Adventures".', parent: 78, reserved: false, url: '', year_began: 2004,
+    year_began_uncertain: false, year_ended: 2005, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 55
+- fields: {created: !!timestamp '2011-06-02 00:00:00', deleted: false, issue_count: 0,
+    modified: !!timestamp '2011-06-02 00:00:00', name: Marvel Age; Marvel Mangaverse,
+    notes: '', parent: 78, reserved: false, url: '', year_began: 2004, year_began_uncertain: false,
+    year_ended: 2004, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 3319
+- fields: {created: !!timestamp '2010-10-19 00:00:00', deleted: false, issue_count: 0,
+    modified: !!timestamp '2011-07-04 00:00:00', name: Marvel All-Colour Comics, notes: Used
+      in the 1970s and early 1980s on British versions of the American comics., parent: 78,
+    reserved: false, url: '', year_began: 1975, year_began_uncertain: true, year_ended: 1981,
+    year_ended_uncertain: true}
+  model: gcd.brand
+  pk: 2632
+- fields: {created: !!timestamp '2009-12-08 00:00:00', deleted: false, issue_count: 13,
+    modified: !!timestamp '2012-08-11 00:00:00', name: Marvel Alterniverse, notes: '',
+    parent: 78, reserved: false, url: '', year_began: 1995, year_began_uncertain: false,
+    year_ended: 1996, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 63
+- fields: {created: !!timestamp '2011-04-03 00:00:00', deleted: false, issue_count: 7,
+    modified: !!timestamp '2011-04-03 00:00:00', name: Marvel Animated, notes: '',
+    parent: 78, reserved: false, url: '', year_began: 1999, year_began_uncertain: false,
+    year_ended: 2000, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 3097
+- fields: {created: !!timestamp '2011-04-19 00:00:00', deleted: false, issue_count: 2,
+    modified: !!timestamp '2012-11-23 06:01:13', name: Marvel Authentix, notes: Brand
+      name for Dynamic Forces special editions of specific Marvel comics in 1998 and
+      1999., parent: 78, reserved: false, url: '', year_began: 1998, year_began_uncertain: false,
+    year_ended: 1999, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 3164
+- fields: {created: !!timestamp '2012-01-27 00:00:00', deleted: false, issue_count: 2,
+    modified: !!timestamp '2013-03-27 06:57:30', name: Marvel Books, notes: '', parent: 78,
+    reserved: false, url: '', year_began: 1982, year_began_uncertain: true, year_ended: null,
+    year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 3967
+- fields: {created: !!timestamp '2011-04-07 00:00:00', deleted: false, issue_count: 5,
+    modified: !!timestamp '2011-04-07 00:00:00', name: Marvel Collectible Classics,
+    notes: Brand placed on a number of chromium enhanced reprints done in the 1990s.,
+    parent: 78, reserved: false, url: '', year_began: 1995, year_began_uncertain: false,
+    year_ended: 1998, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 3129
+- fields: {created: !!timestamp '2009-12-12 00:00:00', deleted: false, issue_count: 173,
+    modified: !!timestamp '2013-05-08 07:18:05', name: 'Marvel Comic [round logo]',
+    notes: "Round logo with crescent highlight in the center and \"Marvel Comic\"\
+      \ written in the thick border- \"Marvel\" around the top, \"Comic\" around the\
+      \ bottom.\r\nUsed from January 1949 to June 1950.\r\nFrom January 1949 to roughly\
+      \ September or October 1949, appeared on all or nearly all comics from this\
+      \ publisher.\r\nFrom October-ish 1949 to June 1950, appeared on all or nearly\
+      \ all non-romance comics, while romance comics used the \"A Lovers Magazine\"\
+      \ brand ( http://www.comics.org/brand/451/ ) instead.\r\nAlso used on the two\
+      \ volumes of The Golden Age of Marvel Comics reprint collections published in\
+      \ 1997 and 1999.", parent: 78, reserved: false, url: '', year_began: 1949, year_began_uncertain: false,
+    year_ended: 1950, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 107
+- fields: {created: !!timestamp '2009-12-07 00:00:00', deleted: false, issue_count: 5429,
+    modified: !!timestamp '2013-05-15 01:17:36', name: Marvel Comics, notes: 'Various
+      logos involving the word "Marvel" in some sort of block type, and then usually
+      a big "M" with "Comics" over it in a lettered style of writing.', parent: 78,
+    reserved: false, url: 'http://www.marvel.com/', year_began: 1987, year_began_uncertain: false,
+    year_ended: 2008, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 45
+- fields: {created: !!timestamp '2010-10-25 00:00:00', deleted: false, issue_count: 69,
+    modified: !!timestamp '2013-03-25 06:46:10', name: Marvel Comics 2, notes: 'Branding
+      on comics set in an alternate future of the main Marvel Universe. Titles carrying
+      this branding included Spider-Girl, J2 and A-Next.', parent: 78, reserved: false,
+    url: '', year_began: 1998, year_began_uncertain: false, year_ended: 2001, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2645
+- fields: {created: !!timestamp '2011-02-18 00:00:00', deleted: false, issue_count: 59,
+    modified: !!timestamp '2012-08-17 00:00:00', name: Marvel Comics 2099, notes: 'A
+      specific brand for the 2099 line first appearing on May 1995 cover-dated comics,
+      alternating for a time with the Marvel 2099 brand.', parent: 78, reserved: false,
+    url: '', year_began: 1995, year_began_uncertain: false, year_ended: 1996, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2974
+- fields: {created: !!timestamp '2011-05-17 00:00:00', deleted: false, issue_count: 9,
+    modified: !!timestamp '2012-06-26 00:00:00', name: "Marvel Comics Edici\xF3n Mexicana",
+    notes: "Edited Marvel's Mexican Edition Comics, published between 1996 & 1998.\r\
+      \n(Edit\xF3 la Edici\xF3n Mexicana de los C\xF3mics de Marvel, publicados entre\
+      \ 1996 y 1998).", parent: 78, reserved: false, url: '', year_began: 1996, year_began_uncertain: false,
+    year_ended: 1998, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 3251
+- fields: {created: !!timestamp '2009-12-07 00:00:00', deleted: false, issue_count: 5017,
+    modified: !!timestamp '2013-05-13 17:53:47', name: Marvel Comics Group, notes: "These\
+      \ words appeared in various different forms during a 20-year period, such as\
+      \ near the issue number or in a band across the top of the cover.\r\n\r\nAlso\
+      \ used in a retro way on the -1 issues of various comics during 1997 and on\
+      \ a Fantastic Four issue in 2007.", parent: 78, reserved: false, url: '', year_began: 1963,
+    year_began_uncertain: false, year_ended: 2007, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 35
+- fields: {created: !!timestamp '2010-12-03 00:00:00', deleted: false, issue_count: 23,
+    modified: !!timestamp '2013-04-21 19:48:18', name: Marvel Comics Group; MCG, notes: '',
+    parent: 78, reserved: false, url: '', year_began: 1967, year_began_uncertain: false,
+    year_ended: 1968, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2730
+- fields: {created: !!timestamp '2010-09-11 00:00:00', deleted: false, issue_count: 169,
+    modified: !!timestamp '2012-08-27 00:00:00', name: Marvel Comics UK, notes: "Though\
+      \ Marvel had reprinted material originally created for and distributed in the\
+      \ UK market, like G.I. European Missions, or distributed additionally to the\
+      \ US market material prepared for the UK market, like Death\u2019s Head and\
+      \ Dragon\u2019s Claws, they first used the Marvel UK brand on US product with\
+      \ Death\u2019s Head II  #1, cover-dated March 1992.  The main line ended with\
+      \ issues cover-dated April 1994, though a different Marvel UK logo was used\
+      \ from that point on Doctor Who: Classic Comics through #27, dated December\
+      \ 1994.  Pumping Iron is a Marvel UK sub-imprint; Marvel Frontier Comics is\
+      \ actually a Marvel UK sub-imprint, though a Marvel UK logo is not part of the\
+      \ trade dress.\r\n\r\nSeveral Marvel UK series were solicited, but never released,\
+      \ including:  Motormouth & Killpower, Bloodrush, Death Duty, Roid Rage, Trakker\
+      \ (aka Timestryke), Officer Outbody, Removal Vs. Motormouth, Ripwire, Warhide,\
+      \ Wild Angels, Loose Cannons, Killfrenzy, Dark Guard Gold, and Motormouth: Re-Mix.",
+    parent: 78, reserved: false, url: '', year_began: 1992, year_began_uncertain: false,
+    year_ended: 1994, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2526
+- fields: {created: !!timestamp '2011-09-25 00:00:00', deleted: false, issue_count: 13,
+    modified: !!timestamp '2011-09-25 00:00:00', name: Marvel Comics UK; Pumping Iron,
+    notes: '', parent: 78, reserved: false, url: '', year_began: 1993, year_began_uncertain: false,
+    year_ended: 1994, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 3637
+- fields: {created: !!timestamp '2010-12-14 00:00:00', deleted: false, issue_count: 16,
+    modified: !!timestamp '2012-10-14 00:00:00', name: 'Marvel Comics [in banner,
+      no "group"]', notes: "This version of the words \"MARVEL COMICS\" appears in\
+      \ a banner at the top of the comic that includes additional information beyond\
+      \ the brand.  The known example is \"A MARVEL COMICS LIMITED SERIES\", although\
+      \ there may be others.\r\n\r\nNot the same as the \"Marvel Comics Group\" banner,\
+      \ as \"Group\" is considered part of the brand since it refers to the publisher.\
+      \  Since \"Limited Series\" refers to the series, it is not part of the brand.",
+    parent: 78, reserved: false, url: '', year_began: 1982, year_began_uncertain: false,
+    year_ended: 1983, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2772
+- fields: {created: !!timestamp '2011-02-24 00:00:00', deleted: false, issue_count: 10,
+    modified: !!timestamp '2012-11-20 23:59:25', name: Marvel Comics; Counter X, notes: '',
+    parent: 78, reserved: false, url: 'http://www.marvel.com/', year_began: 2000,
+    year_began_uncertain: false, year_ended: 2001, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 3000
+- fields: {created: !!timestamp '2010-07-13 00:00:00', deleted: false, issue_count: 5,
+    modified: !!timestamp '2013-03-11 07:28:17', name: 'Marvel Comics; DC [bullet]',
+    notes: '', parent: 78, reserved: false, url: '', year_began: 1991, year_began_uncertain: false,
+    year_ended: null, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 1975
+- fields: {created: !!timestamp '2011-05-06 00:00:00', deleted: false, issue_count: 8,
+    modified: !!timestamp '2011-10-19 00:00:00', name: Marvel Comics; FW, notes: 'When
+      Marvel decided to separate their titles into groups. Iron Man, Force Works and
+      War Machine where part of the Force Works (FW) group.', parent: 78, reserved: false,
+    url: 'http://www.marvel.com/', year_began: 1995, year_began_uncertain: false,
+    year_ended: 1995, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 3218
+- fields: {created: !!timestamp '2011-02-27 00:00:00', deleted: false, issue_count: 1,
+    modified: !!timestamp '2012-08-05 00:00:00', name: Marvel Comics; image, notes: '',
+    parent: 78, reserved: false, url: 'http://www.marvel.com/', year_began: 1997,
+    year_began_uncertain: false, year_ended: 1997, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 3005
+- fields: {created: !!timestamp '2011-08-12 00:00:00', deleted: false, issue_count: 7,
+    modified: !!timestamp '2013-04-14 12:34:20', name: Marvel Comics; Marvel; Midnight
+      Sons, notes: '', parent: 78, reserved: false, url: '', year_began: 1994, year_began_uncertain: false,
+    year_ended: 1994, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 3493
+- fields: {created: !!timestamp '2011-04-25 00:00:00', deleted: false, issue_count: 2,
+    modified: !!timestamp '2012-08-05 00:00:00', name: Marvel Comics; Nelson, notes: '',
+    parent: 78, reserved: false, url: '', year_began: 1993, year_began_uncertain: false,
+    year_ended: 1993, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 3183
+- fields: {created: !!timestamp '2010-10-09 00:00:00', deleted: false, issue_count: 1,
+    modified: !!timestamp '2010-10-09 00:00:00', name: Marvel Comics; Pizza Hut, notes: '',
+    parent: 78, reserved: false, url: '', year_began: 1994, year_began_uncertain: false,
+    year_ended: 1994, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2597
+- fields: {created: !!timestamp '2011-11-27 00:00:00', deleted: false, issue_count: 2,
+    modified: !!timestamp '2012-07-06 00:00:00', name: Marvel Custom Edition, notes: '',
+    parent: 78, reserved: false, url: '', year_began: 2011, year_began_uncertain: false,
+    year_ended: 2011, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 3834
+- fields: {created: !!timestamp '2009-12-08 00:00:00', deleted: false, issue_count: 32,
+    modified: !!timestamp '2013-04-27 20:09:44', name: Marvel Edge, notes: '', parent: 78,
+    reserved: false, url: '', year_began: 1995, year_began_uncertain: false, year_ended: 1997,
+    year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 66
+- fields: {created: !!timestamp '2011-02-22 00:00:00', deleted: false, issue_count: 8,
+    modified: !!timestamp '2012-04-07 00:00:00', name: Marvel Facsimile Edition, notes: Brand
+      used on the Marvel Milestone reprint comics, parent: 78, reserved: false, url: '',
+    year_began: 1991, year_began_uncertain: false, year_ended: 1997, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2999
+- fields: {created: !!timestamp '2010-08-23 00:00:00', deleted: false, issue_count: 12,
+    modified: !!timestamp '2012-08-05 00:00:00', name: Marvel Frontier Comics, notes: '',
+    parent: 78, reserved: false, url: '', year_began: 1993, year_began_uncertain: false,
+    year_ended: 1994, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2445
+- fields: {created: !!timestamp '2010-04-07 00:00:00', deleted: false, issue_count: 39,
+    modified: !!timestamp '2013-05-11 21:47:16', name: Marvel Graphic Novel, notes: '',
+    parent: 78, reserved: false, url: '', year_began: 1982, year_began_uncertain: false,
+    year_ended: 1993, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 714
+- fields: {created: !!timestamp '2010-04-07 00:00:00', deleted: false, issue_count: 4,
+    modified: !!timestamp '2012-08-05 00:00:00', name: Marvel Graphics, notes: '',
+    parent: 78, reserved: false, url: '', year_began: 1989, year_began_uncertain: false,
+    year_ended: 1990, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 716
+- fields: {created: !!timestamp '2010-08-21 00:00:00', deleted: false, issue_count: 11,
+    modified: !!timestamp '2013-05-08 11:26:16', name: Marvel Group, notes: Used for
+      at least one month in 1947., parent: 78, reserved: false, url: '', year_began: 1947,
+    year_began_uncertain: false, year_ended: 1947, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2440
+- fields: {created: !!timestamp '2011-05-06 00:00:00', deleted: false, issue_count: 3,
+    modified: !!timestamp '2011-05-26 00:00:00', name: Marvel Humor, notes: '', parent: 78,
+    reserved: false, url: '', year_began: 1994, year_began_uncertain: false, year_ended: 1995,
+    year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 3219
+- fields: {created: !!timestamp '2011-03-09 00:00:00', deleted: false, issue_count: 4,
+    modified: !!timestamp '2011-03-09 00:00:00', name: Marvel Icons, notes: Brand
+      used for a few four issue limited series featuring individual characters in
+      2001-2002., parent: 78, reserved: false, url: '', year_began: 2001, year_began_uncertain: false,
+    year_ended: 2002, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 3033
+- fields: {created: !!timestamp '2010-03-03 00:00:00', deleted: false, issue_count: 7,
+    modified: !!timestamp '2011-11-27 00:00:00', name: Marvel Illustrated Books, notes: Used
+      on the covers of some mass market paperbacks published by Marvel in the early
+      1980s., parent: 78, reserved: false, url: '', year_began: 1982, year_began_uncertain: false,
+    year_ended: 1982, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 503
+- fields: {created: !!timestamp '2011-06-02 00:00:00', deleted: false, issue_count: 58,
+    modified: !!timestamp '2013-02-26 07:59:52', name: Marvel Imports, notes: Used
+      on Manga-style series., parent: 78, reserved: false, url: '', year_began: 1997,
+    year_began_uncertain: false, year_ended: 1999, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 3318
+- fields: {created: !!timestamp '2011-04-25 00:00:00', deleted: false, issue_count: 9,
+    modified: !!timestamp '2012-08-05 00:00:00', name: Marvel Interactive, notes: '',
+    parent: 78, reserved: false, url: '', year_began: 1998, year_began_uncertain: false,
+    year_ended: 1998, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 3178
+- fields: {created: !!timestamp '2009-12-07 00:00:00', deleted: false, issue_count: 330,
+    modified: !!timestamp '2013-03-08 23:06:23', name: Marvel Knights, notes: '',
+    parent: 78, reserved: false, url: '', year_began: 1998, year_began_uncertain: false,
+    year_ended: 2011, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 57
+- fields: {created: !!timestamp '2012-05-18 00:00:00', deleted: false, issue_count: 6,
+    modified: !!timestamp '2012-05-21 00:00:00', name: Marvel Knights; Marvel, notes: '',
+    parent: 78, reserved: false, url: '', year_began: 2009, year_began_uncertain: false,
+    year_ended: 2009, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 4149
+- fields: {created: !!timestamp '2011-11-26 00:00:00', deleted: false, issue_count: 5,
+    modified: !!timestamp '2012-08-05 00:00:00', name: Marvel Knights; Marvel Comics,
+    notes: '', parent: 78, reserved: false, url: '', year_began: 2001, year_began_uncertain: false,
+    year_ended: 2008, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 3830
+- fields: {created: !!timestamp '2010-01-29 00:00:00', deleted: false, issue_count: 38,
+    modified: !!timestamp '2013-04-29 11:27:32', name: Marvel Magazine Group, notes: 'Last
+      used on Savage Sword of Conan #98 (March 1984) published in December 1983.',
+    parent: 78, reserved: false, url: '', year_began: 1974, year_began_uncertain: false,
+    year_ended: 1983, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 340
+- fields: {created: !!timestamp '2012-11-19 12:41:14', deleted: false, issue_count: 1,
+    modified: !!timestamp '2012-11-20 06:03:51', name: 'Marvel Magazines [reading
+      a magazine]', notes: A caricature reading a magazine that has the words "Marvel
+      Magazines" on it., parent: 78, reserved: false, url: '', year_began: 1973, year_began_uncertain: true,
+    year_ended: 1973, year_ended_uncertain: true}
+  model: gcd.brand
+  pk: 4462
+- fields: {created: !!timestamp '2011-09-30 00:00:00', deleted: false, issue_count: 1,
+    modified: !!timestamp '2012-11-19 12:40:08', name: 'Marvel Magazines [roundrel]',
+    notes: Spider-Man head encircled by band that says "Marvel" at the top and "Magazines"
+      at the bottom., parent: 78, reserved: false, url: '', year_began: 1980, year_began_uncertain: false,
+    year_ended: 1980, year_ended_uncertain: true}
+  model: gcd.brand
+  pk: 3666
+- fields: {created: !!timestamp '2010-12-06 00:00:00', deleted: false, issue_count: 6,
+    modified: !!timestamp '2012-04-06 00:00:00', name: Marvel Mangaverse, notes: '',
+    parent: 78, reserved: false, url: '', year_began: 2002, year_began_uncertain: false,
+    year_ended: 2006, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2738
+- fields: {created: !!timestamp '2011-11-13 00:00:00', deleted: false, issue_count: 4,
+    modified: !!timestamp '2011-11-13 00:00:00', name: Marvel Midnight Sons, notes: '',
+    parent: 78, reserved: false, url: '', year_began: 1993, year_began_uncertain: true,
+    year_ended: 1994, year_ended_uncertain: true}
+  model: gcd.brand
+  pk: 3796
+- fields: {created: !!timestamp '2010-08-23 00:00:00', deleted: false, issue_count: 196,
+    modified: !!timestamp '2013-04-08 18:24:09', name: Marvel MK, notes: '', parent: 78,
+    reserved: false, url: '', year_began: 2001, year_began_uncertain: false, year_ended: 2011,
+    year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2442
+- fields: {created: !!timestamp '2010-08-23 00:00:00', deleted: false, issue_count: 14,
+    modified: !!timestamp '2013-02-12 17:39:15', name: Marvel MK; Marvel, notes: '',
+    parent: 78, reserved: false, url: '', year_began: 2002, year_began_uncertain: false,
+    year_ended: 2006, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2443
+- fields: {created: !!timestamp '2010-03-09 00:00:00', deleted: false, issue_count: 27,
+    modified: !!timestamp '2013-04-27 16:51:16', name: Marvel Monster Group, notes: '',
+    parent: 78, reserved: false, url: '', year_began: 1973, year_began_uncertain: false,
+    year_ended: 1975, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 530
+- fields: {created: !!timestamp '2010-05-08 00:00:00', deleted: false, issue_count: 5,
+    modified: !!timestamp '2010-05-09 00:00:00', name: Marvel Music, notes: '', parent: 78,
+    reserved: false, url: '', year_began: 1994, year_began_uncertain: false, year_ended: 1995,
+    year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 1152
+- fields: {created: !!timestamp '2010-12-27 00:00:00', deleted: false, issue_count: 9,
+    modified: !!timestamp '2013-02-24 15:58:48', name: Marvel Must Have, notes: Used
+      to repackage bundles of sold-out issues., parent: 78, reserved: false, url: '',
+    year_began: 2005, year_began_uncertain: true, year_ended: null, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2805
+- fields: {created: !!timestamp '2010-02-28 00:00:00', deleted: false, issue_count: 35,
+    modified: !!timestamp '2013-02-25 08:40:01', name: Marvel Next; Marvel, notes: "According\
+      \ to the press release ( http://marvel.com/news/story/14/marvel_next ) this\
+      \ was \"not a new line or imprint\" but instead a \"collection of titles that\
+      \ will spotlight young characters in fresh and exciting ways.\"  The most prominent\
+      \ titles named in the press release, Young Avengers and Runaways, never actually\
+      \ carried the Marvel Next logo.  The logo was used inconsistently on several\
+      \ of the series where it did appear.  It was used from March 2005 through February\
+      \ 2006, which encompassed the complete run of its longest title, Ara\xF1a Heart\
+      \ of the Spider (Marvel, 2005 series).", parent: 78, reserved: false, url: '',
+    year_began: 2005, year_began_uncertain: false, year_ended: 2006, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 487
+- fields: {created: !!timestamp '2012-11-08 07:18:59', deleted: false, issue_count: 203,
+    modified: !!timestamp '2013-05-11 03:40:11', name: Marvel Now!, notes: 'Red rectangle
+      with the word "MARVEL" in white letters.  Below that is another smaller red
+      rectangle, with a thin strip of empty space separating it from the other rectangle.  In
+      the lower rectangle, in white letters, is the word "NOW!" including an exclamation
+      point.', parent: 78, reserved: false, url: '', year_began: 2012, year_began_uncertain: false,
+    year_ended: null, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 4432
+- fields: {created: !!timestamp '2010-04-07 00:00:00', deleted: false, issue_count: 11,
+    modified: !!timestamp '2012-10-23 20:30:38', name: Marvel Omnibus, notes: '',
+    parent: 78, reserved: false, url: '', year_began: 2005, year_began_uncertain: false,
+    year_ended: null, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 711
+- fields: {created: !!timestamp '2009-12-12 00:00:00', deleted: false, issue_count: 16,
+    modified: !!timestamp '2013-01-14 17:04:31', name: Marvel Pop Art Productions,
+    notes: Used briefly in 1965. Also used on the January 1984 issue of Daredevil
+      as satire for Assistant Editor's Month., parent: 78, reserved: false, url: '',
+    year_began: 1965, year_began_uncertain: false, year_ended: 1965, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 124
+- fields: {created: !!timestamp '2010-08-31 00:00:00', deleted: false, issue_count: 87,
+    modified: !!timestamp '2013-05-12 12:47:48', name: Marvel Premiere Classic, notes: '',
+    parent: 78, reserved: true, url: '', year_began: 2006, year_began_uncertain: false,
+    year_ended: 2012, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2486
+- fields: {created: !!timestamp '2010-04-20 00:00:00', deleted: false, issue_count: 50,
+    modified: !!timestamp '2013-05-06 16:05:33', name: Marvel Premiere Edition, notes: '',
+    parent: 78, reserved: false, url: '', year_began: 2005, year_began_uncertain: false,
+    year_ended: null, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 938
+- fields: {created: !!timestamp '2010-01-22 00:00:00', deleted: false, issue_count: 95,
+    modified: !!timestamp '2011-11-26 00:00:00', name: Marvel Presents Paramount Comics,
+    notes: '', parent: 78, reserved: false, url: '', year_began: 1996, year_began_uncertain: false,
+    year_ended: 1998, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 301
+- fields: {created: !!timestamp '2010-07-13 00:00:00', deleted: false, issue_count: 41,
+    modified: !!timestamp '2012-08-11 00:00:00', name: Marvel Select, notes: '', parent: 78,
+    reserved: false, url: '', year_began: 1995, year_began_uncertain: false, year_ended: null,
+    year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 1980
+- fields: {created: !!timestamp '2010-03-16 00:00:00', deleted: false, issue_count: 29,
+    modified: !!timestamp '2013-03-05 06:22:45', name: Marvel Spider-Man Group, notes: '',
+    parent: 78, reserved: false, url: '', year_began: 1995, year_began_uncertain: false,
+    year_ended: 1996, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 569
+- fields: {created: !!timestamp '2010-08-30 00:00:00', deleted: false, issue_count: 2,
+    modified: !!timestamp '2011-08-27 00:00:00', name: Marvel Studios; Marvel, notes: '',
+    parent: 78, reserved: false, url: '', year_began: 2010, year_began_uncertain: false,
+    year_ended: null, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2482
+- fields: {created: !!timestamp '2010-02-05 00:00:00', deleted: false, issue_count: 94,
+    modified: !!timestamp '2013-04-24 21:40:27', name: Marvel Universe, notes: 'Used
+      on Marvel comic books in 1995-1996, including on Starmasters #1, when Marvel
+      had 5 group editors. Used since 2012 for titles adapted from TV cartoons.',
+    parent: 78, reserved: false, url: '', year_began: 1995, year_began_uncertain: false,
+    year_ended: null, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 377
+- fields: {created: !!timestamp '2011-04-05 00:00:00', deleted: false, issue_count: 5,
+    modified: !!timestamp '2012-08-10 00:00:00', name: Marvel Vault, notes: Used for
+      inventory issues published in the wake of the move of Marvel offices., parent: 78,
+    reserved: false, url: '', year_began: 2011, year_began_uncertain: false, year_ended: 2011,
+    year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 3121
+- fields: {created: !!timestamp '2013-03-09 13:07:33', deleted: false, issue_count: 6,
+    modified: !!timestamp '2013-03-30 12:39:22', name: Marvel's Finest; Marvel Comics,
+    notes: '', parent: 78, reserved: false, url: '', year_began: 1987, year_began_uncertain: false,
+    year_ended: null, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 4663
+- fields: {created: !!timestamp '2011-03-14 00:00:00', deleted: false, issue_count: 32,
+    modified: !!timestamp '2012-12-21 07:03:18', name: Marvel.1, notes: '', parent: 78,
+    reserved: false, url: '', year_began: 2011, year_began_uncertain: false, year_ended: null,
+    year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 3039
+- fields: {created: !!timestamp '2011-07-05 00:00:00', deleted: false, issue_count: 65,
+    modified: !!timestamp '2011-11-27 00:00:00', name: 'Marvel; DBPRO [lion rampant
+      sinister]', notes: '', parent: 78, reserved: false, url: '', year_began: 2006,
+    year_began_uncertain: false, year_ended: 2007, year_ended_uncertain: true}
+  model: gcd.brand
+  pk: 3401
+- fields: {created: !!timestamp '2010-05-11 00:00:00', deleted: false, issue_count: 173,
+    modified: !!timestamp '2012-08-12 00:00:00', name: Marvel; New Universe, notes: Used
+      from 1986 to 1989 for the New Universe line of books. Resurrected for the twenty
+      years anniversary., parent: 78, reserved: false, url: '', year_began: 1986,
+    year_began_uncertain: false, year_ended: 2006, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 1162
+- fields: {created: !!timestamp '2010-10-07 00:00:00', deleted: false, issue_count: 1,
+    modified: !!timestamp '2012-08-11 00:00:00', name: Marvel; Ninja Theory; Namco,
+    notes: '', parent: 78, reserved: false, url: '', year_began: 2010, year_began_uncertain: false,
+    year_ended: 2010, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2590
+- fields: {created: !!timestamp '2011-10-03 00:00:00', deleted: false, issue_count: 56,
+    modified: !!timestamp '2013-04-22 14:26:35', name: Marvel; Ultimate Comics, notes: '',
+    parent: 78, reserved: false, url: '', year_began: 2011, year_began_uncertain: false,
+    year_ended: null, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 3687
+- fields: {created: !!timestamp '2011-04-04 00:00:00', deleted: false, issue_count: 2,
+    modified: !!timestamp '2012-05-13 00:00:00', name: Marvels Comics Group, notes: This
+      is the brand name for a set of alternate reality one-shots published in 2000.,
+    parent: 78, reserved: false, url: '', year_began: 2000, year_began_uncertain: false,
+    year_ended: 2000, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 3115
+- fields: {created: !!timestamp '2009-12-07 00:00:00', deleted: false, issue_count: 346,
+    modified: !!timestamp '2013-05-13 04:36:50', name: MAX Comics, notes: '', parent: 78,
+    reserved: false, url: '', year_began: 2001, year_began_uncertain: false, year_ended: null,
+    year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 58
+- fields: {created: !!timestamp '2012-05-18 00:00:00', deleted: false, issue_count: 20,
+    modified: !!timestamp '2013-03-10 18:24:32', name: MAX Comics; Marvel, notes: '',
+    parent: 78, reserved: false, url: '', year_began: 2004, year_began_uncertain: false,
+    year_ended: 2004, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 4148
+- fields: {created: !!timestamp '2009-12-07 00:00:00', deleted: false, issue_count: 215,
+    modified: !!timestamp '2013-04-26 19:50:06', name: MC, notes: 'The first actual
+      "Marvel Comics" brand, in the modern sense.  Appeared as a small box with the
+      letters "M" and "C" stacked vertically in the box.', parent: 78, reserved: false,
+    url: '', year_began: 1961, year_began_uncertain: false, year_ended: 1963, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 36
+- fields: {created: !!timestamp '2010-06-07 00:00:00', deleted: false, issue_count: 15,
+    modified: !!timestamp '2011-10-12 00:00:00', name: Midnight Sons; Marvel, notes: '',
+    parent: 78, reserved: false, url: '', year_began: 1993, year_began_uncertain: false,
+    year_ended: 1994, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 1588
+- fields: {created: !!timestamp '2012-12-31 15:47:05', deleted: false, issue_count: 8,
+    modified: !!timestamp '2012-12-31 16:59:35', name: Presented By Marvel, notes: '',
+    parent: 78, reserved: false, url: '', year_began: 2008, year_began_uncertain: false,
+    year_ended: null, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 4524
+- fields: {created: !!timestamp '2011-05-31 00:00:00', deleted: false, issue_count: 1,
+    modified: !!timestamp '2011-06-01 00:00:00', name: Presented By Marvel Custom,
+    notes: 'Used on at least one Marvel "custom comic", but apparently not on the
+      rest.', parent: 78, reserved: false, url: '', year_began: 2009, year_began_uncertain: false,
+    year_ended: 2009, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 3312
+- fields: {created: !!timestamp '2010-10-26 00:00:00', deleted: false, issue_count: 31,
+    modified: !!timestamp '2013-02-02 12:15:30', name: Razorline; Marvel, notes: '',
+    parent: 78, reserved: false, url: '', year_began: 1993, year_began_uncertain: false,
+    year_ended: 1994, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2649
+- fields: {created: !!timestamp '2010-08-31 00:00:00', deleted: false, issue_count: 16,
+    modified: !!timestamp '2013-03-05 13:07:49', name: Soleil; Marvel, notes: '',
+    parent: 78, reserved: false, url: '', year_began: 2008, year_began_uncertain: false,
+    year_ended: 2011, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2489
+- fields: {created: !!timestamp '2010-09-23 00:00:00', deleted: false, issue_count: 25,
+    modified: !!timestamp '2013-03-24 17:07:02', name: Spider-Man Group; Marvel Comics,
+    notes: 'When Marvel had five editors-in-chief, each office had separate brands.',
+    parent: 78, reserved: false, url: '', year_began: 1996, year_began_uncertain: false,
+    year_ended: 1997, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2564
+- fields: {created: !!timestamp '2009-12-18 00:00:00', deleted: false, issue_count: 65,
+    modified: !!timestamp '2013-03-31 06:11:52', name: Star Comics, notes: "Marvel's\
+      \ 1980s line of childrens' comics.\r\nJanuary 1988 is the last cover date for\
+      \ the brand; all remaining titles in the line were then transitioned to the\
+      \ Marvel brand.", parent: 78, reserved: false, url: '', year_began: 1985, year_began_uncertain: false,
+    year_ended: 1988, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 173
+- fields: {created: !!timestamp '2010-10-26 00:00:00', deleted: false, issue_count: 146,
+    modified: !!timestamp '2013-04-11 02:20:09', name: Star Comics; Marvel, notes: '',
+    parent: 78, reserved: false, url: '', year_began: 1985, year_began_uncertain: false,
+    year_ended: 1988, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2654
+- fields: {created: !!timestamp '2010-10-03 00:00:00', deleted: false, issue_count: 9,
+    modified: !!timestamp '2012-08-10 00:00:00', name: Strange Tales From Marvel,
+    notes: '', parent: 78, reserved: false, url: '', year_began: 1998, year_began_uncertain: false,
+    year_ended: 1998, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 2581
+- fields: {created: !!timestamp '2010-07-11 00:00:00', deleted: false, issue_count: 1,
+    modified: !!timestamp '2010-07-11 00:00:00', name: Thumbtack, notes: '', parent: 78,
+    reserved: false, url: '', year_began: 1982, year_began_uncertain: false, year_ended: 1982,
+    year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 1964
+- fields: {created: !!timestamp '2011-06-07 00:00:00', deleted: false, issue_count: 1,
+    modified: !!timestamp '2011-06-08 00:00:00', name: 'Timely Comics Inc. [large
+      shield]', notes: 'A large shield with a solid top third (usually blue) with
+      the words "Timely Comics" and vertical stripes on the bottom two-thirds with
+      "Inc." in a solid rectangle superimposed on the vertical stripe area.  This
+      exact logo appears only once on the exterior of an actual Timely-era comic,
+      although it appeared on interior pages such as house ads more frequently.  Some
+      similar single-use exterior logos exist as well.  This is the logo (with red
+      vertical stripes instead of blue) that is used most often in modern reprintings
+      and references to the Timely brand.', parent: 78, reserved: false, url: '',
+    year_began: 1942, year_began_uncertain: false, year_ended: 1942, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 3327
+- fields: {created: !!timestamp '2009-12-12 00:00:00', deleted: false, issue_count: 11,
+    modified: !!timestamp '2012-01-09 00:00:00', name: Timely Comics Inc.; Marvel
+      Comics / Timely; Marvel, notes: "Dual logos used on special 70th Anniversary\
+      \ one-shots reviving Timely's original superhero titles.  The regular and variant\
+      \ editions used different trade dress, with the regular comics featuring the\
+      \ classic \"Timely Comics Inc.\" shield prominently and the \"Marvel Comics\"\
+      \ logo in the bottom corner, while the variants featured the plain words \"\
+      Timely\" and \"Marvel\" next to a number 70.\r\n", parent: 78, reserved: false,
+    url: 'http://www.marvel.com/', year_began: 2009, year_began_uncertain: false,
+    year_ended: 2009, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 123
+- fields: {created: !!timestamp '2011-06-07 00:00:00', deleted: false, issue_count: 1,
+    modified: !!timestamp '2011-06-08 00:00:00', name: 'Timely Comics [buy bonds and
+      stamps shield]', notes: 'This variation on the more well-known large Timely
+      Comics Inc. shield has a white background for the top third, and three solid
+      panels (red, white and blue left to right) in the bottom third.  Instead of
+      a rectangle with "Inc.", the wider white panel in the middle contains text exhorting
+      readers to buy U.S. defense bonds and stamps.  Like the other large shield Timely
+      logos, this one appeared exactly once on an outside cover during the 40''s.  No
+      other interior usages are known, but they may exist.', parent: 78, reserved: false,
+    url: '', year_began: 1942, year_began_uncertain: false, year_ended: 1942, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 3328
+- fields: {created: !!timestamp '2011-06-07 00:00:00', deleted: false, issue_count: 1,
+    modified: !!timestamp '2011-06-08 00:00:00', name: 'Timely Comics [no shield]',
+    notes: 'One known issue features the words Timely Comics worked into the design
+      of the cover, which was made to look like the front and spine of a thicker book,
+      with "Timely Comics" written on the spine.  Used at the same time as two of
+      the large shield Timely brands.', parent: 78, reserved: false, url: '', year_began: 1942,
+    year_began_uncertain: false, year_ended: 1942, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 3329
+- fields: {created: !!timestamp '2009-12-11 00:00:00', deleted: false, issue_count: 7,
+    modified: !!timestamp '2011-06-08 00:00:00', name: 'Timely Comics [small shield]',
+    notes: "The most commonly used (on outside covers) of the various \"Timely Comics\"\
+      \ brand, this is a small shield with three stars across the top edge, and \"\
+      Timely Comics\" (no \"Inc.\") on the main body of the shield.  The top edge\
+      \ and the main body were each otherwise a solid color (sometimes the same color,\
+      \ sometimes different).  This logo was also used on interior pages.  \r\n\r\n\
+      It appeared on some comics cover-dated June-September or Summer of 1942, although\
+      \ no one monthly title used the logo for all four months.  The more well-known\
+      \ large shield (or variations of it) was mostly seen in Spring months, except\
+      \ for the comedy \"A Timely Comics Riot of Fun\" variation which was concurrent\
+      \ with this small shield form.", parent: 78, reserved: false, url: '', year_began: 1942,
+    year_began_uncertain: false, year_ended: 1942, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 104
+- fields: {created: !!timestamp '2009-12-08 00:00:00', deleted: false, issue_count: 18,
+    modified: !!timestamp '2011-07-17 00:00:00', name: Tsunami, notes: '', parent: 78,
+    reserved: false, url: '', year_began: 2003, year_began_uncertain: false, year_ended: 2004,
+    year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 67
+- fields: {created: !!timestamp '2010-07-09 00:00:00', deleted: false, issue_count: 3,
+    modified: !!timestamp '2010-07-09 00:00:00', name: Ultimate, notes: '', parent: 78,
+    reserved: false, url: '', year_began: 2000, year_began_uncertain: false, year_ended: null,
+    year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 1961
+- fields: {created: !!timestamp '2010-03-18 00:00:00', deleted: false, issue_count: 15,
+    modified: !!timestamp '2013-03-05 08:09:52', name: Women of Marvel, notes: '',
+    parent: 78, reserved: false, url: '', year_began: 2010, year_began_uncertain: false,
+    year_ended: 2011, year_ended_uncertain: false}
+  model: gcd.brand
+  pk: 583
+- fields: {created: !!timestamp '2010-09-12 00:00:00', deleted: false, issue_count: 155,
+    modified: !!timestamp '2013-04-30 17:34:39', name: X-Men Group; Marvel Comics,
+    notes: 'During the time when Marvel had five group editors instead of an editor
+      in chief, each of the five groups also had cover branding.', parent: 78, reserved: false,
+    url: '', year_began: 1994, year_began_uncertain: false, year_ended: 1997, year_ended_uncertain: true}
+  model: gcd.brand
+  pk: 2529
+
+
+# Ind Publishers
+
+- fields: {country: 225, created: !!timestamp '2010-01-02 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 125, modified: !!timestamp '2013-02-04 00:33:56',
+    name: 20th Century Comic Corp., notes: '', parent: 78, reserved: false, url: '',
+    year_began: 1943, year_began_uncertain: false, year_ended: 1957, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 256
+- fields: {country: 225, created: !!timestamp '2012-12-31 15:53:30', deleted: false,
+    is_surrogate: false, issue_count: 8, modified: !!timestamp '2012-12-31 16:59:35',
+    name: 'A.P.N.G. Enterprises, Inc.', notes: 'A.P.N.G. Enterprises, Inc. is the
+      copyright holder for the New-Gen comics. There is no publisher listed in the
+      indicia.', parent: 78, reserved: false, url: 'http://apngenterprises.com/',
+    year_began: 2008, year_began_uncertain: false, year_ended: null, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 3136
+- fields: {country: 225, created: !!timestamp '2010-09-02 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 4, modified: !!timestamp '2012-12-15 08:18:11',
+    name: 'Animated Timely Features, Inc.', notes: '', parent: 78, reserved: false,
+    url: '', year_began: 1965, year_began_uncertain: false, year_ended: 1968, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 1058
+- fields: {country: 225, created: !!timestamp '2009-12-25 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 99, modified: !!timestamp '2013-05-14 13:49:24',
+    name: 'Animirth Comics, Inc.', notes: Specific start and end dates unknown at
+      this time., parent: 78, reserved: false, url: '', year_began: 1943, year_began_uncertain: false,
+    year_ended: 1956, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 222
+- fields: {country: 225, created: !!timestamp '2010-01-09 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 190, modified: !!timestamp '2013-05-14 13:49:24',
+    name: 'Atlas Magazines, Inc.', notes: '', parent: 78, reserved: false, url: '',
+    year_began: 1955, year_began_uncertain: false, year_ended: 1968, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 304
+- fields: {country: 225, created: !!timestamp '2010-01-02 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 51, modified: !!timestamp '2013-01-22 03:12:49',
+    name: 'Atlas News Company, Inc.', notes: '', parent: 78, reserved: false, url: '',
+    year_began: null, year_began_uncertain: false, year_ended: 1957, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 253
+- fields: {country: 225, created: !!timestamp '2010-01-28 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 162, modified: !!timestamp '2013-05-14 13:29:22',
+    name: Bard Publishing Corp., notes: 'Used 1945-1968, but also appeared in a reproduction
+      comic in 1994.', parent: 78, reserved: false, url: '', year_began: 1945, year_began_uncertain: false,
+    year_ended: 1994, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 381
+- fields: {country: 225, created: !!timestamp '2010-01-02 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 74, modified: !!timestamp '2013-03-18 07:06:48',
+    name: 'Broadcast Features Publications, Inc.', notes: '', parent: 78, reserved: false,
+    url: '', year_began: null, year_began_uncertain: false, year_ended: 1955, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 258
+- fields: {country: 225, created: !!timestamp '2010-01-02 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 210, modified: !!timestamp '2013-05-14 13:31:31',
+    name: Canam Publishers Sales Corp., notes: 'Used 1952-1968, and then again in
+      a handful of reproduction comics in 1994.', parent: 78, reserved: false, url: '',
+    year_began: 1952, year_began_uncertain: false, year_ended: 1994, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 249
+- fields: {country: 225, created: !!timestamp '2010-01-02 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 110, modified: !!timestamp '2013-02-01 01:26:59',
+    name: Chipiden Publishing Corp., notes: '', parent: 78, reserved: false, url: '',
+    year_began: null, year_began_uncertain: false, year_ended: 1959, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 265
+- fields: {country: 225, created: !!timestamp '2010-01-02 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 8, modified: !!timestamp '2012-08-07 00:00:00',
+    name: 'Classic Detective Stories, Inc.', notes: '', parent: 78, reserved: false,
+    url: '', year_began: null, year_began_uncertain: false, year_ended: 1957, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 259
+- fields: {country: 225, created: !!timestamp '2010-10-25 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 1, modified: !!timestamp '2012-08-04 00:00:00',
+    name: Classic Publishing Corp., notes: '', parent: 78, reserved: false, url: '',
+    year_began: 1957, year_began_uncertain: false, year_ended: 1957, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 1178
+- fields: {country: 225, created: !!timestamp '2010-01-09 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 63, modified: !!timestamp '2013-01-24 16:38:27',
+    name: 'Classic Syndicate, Inc.', notes: '', parent: 78, reserved: false, url: '',
+    year_began: 1951, year_began_uncertain: false, year_ended: 1957, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 309
+- fields: {country: 225, created: !!timestamp '2010-01-02 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 6, modified: !!timestamp '2013-05-14 03:04:43',
+    name: 'Comedy Publications, Inc.', notes: '', parent: 78, reserved: false, url: '',
+    year_began: null, year_began_uncertain: false, year_ended: 1946, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 270
+- fields: {country: 225, created: !!timestamp '2009-12-16 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 82, modified: !!timestamp '2013-05-14 17:50:36',
+    name: Comic Combine Corp., notes: '', parent: 78, reserved: false, url: '', year_began: 1948,
+    year_began_uncertain: false, year_ended: 1956, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 169
+- fields: {country: 225, created: !!timestamp '2010-01-02 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 51, modified: !!timestamp '2012-08-04 00:00:00',
+    name: Complete Photo Story Corp., notes: '', parent: 78, reserved: false, url: '',
+    year_began: 1942, year_began_uncertain: false, year_ended: 1948, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 266
+- fields: {country: 225, created: !!timestamp '2010-01-02 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 71, modified: !!timestamp '2013-04-14 16:16:51',
+    name: Cornell Publishing Corp., notes: '', parent: 78, reserved: false, url: '',
+    year_began: null, year_began_uncertain: false, year_ended: 1957, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 264
+- fields: {country: 225, created: !!timestamp '2010-02-25 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 2, modified: !!timestamp '2013-02-14 07:33:36',
+    name: 'Crime Bureau Stories, Inc.', notes: '', parent: 78, reserved: false, url: '',
+    year_began: 1948, year_began_uncertain: false, year_ended: 1949, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 469
+- fields: {country: 225, created: !!timestamp '2010-10-14 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 2, modified: !!timestamp '2012-08-04 00:00:00',
+    name: 'Crime Files, Inc.', notes: Known to be in use during 1948., parent: 78,
+    reserved: false, url: '', year_began: 1948, year_began_uncertain: false, year_ended: 1948,
+    year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 1148
+- fields: {country: 225, created: !!timestamp '2010-01-02 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 89, modified: !!timestamp '2013-05-10 01:34:29',
+    name: 'Current Detective Stories, Inc.', notes: '', parent: 78, reserved: false,
+    url: '', year_began: 1943, year_began_uncertain: false, year_ended: 1957, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 260
+- fields: {country: 225, created: !!timestamp '2009-12-16 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 12, modified: !!timestamp '2011-05-31 00:00:00',
+    name: 'Daring Comics, Inc.', notes: 'Dates unconfirmed, but publisher was in operation
+      for at least these years.', parent: 78, reserved: false, url: '', year_began: 1943,
+    year_began_uncertain: false, year_ended: 1947, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 171
+- fields: {country: 225, created: !!timestamp '2010-01-09 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 12, modified: !!timestamp '2012-09-16 00:00:00',
+    name: 'Emgee Publications, Inc.', notes: '', parent: 78, reserved: false, url: '',
+    year_began: 1956, year_began_uncertain: false, year_ended: 1957, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 305
+- fields: {country: 225, created: !!timestamp '2009-12-25 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 202, modified: !!timestamp '2013-05-10 19:52:44',
+    name: Epic Comics, notes: '', parent: 78, reserved: false, url: '', year_began: 1987,
+    year_began_uncertain: false, year_ended: 1994, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 226
+- fields: {country: 225, created: !!timestamp '2010-10-03 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 23, modified: !!timestamp '2013-05-10 19:52:44',
+    name: 'Epic Comics, A New World Company', notes: '', parent: 78, reserved: false,
+    url: '', year_began: 1987, year_began_uncertain: false, year_ended: 1988, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 1130
+- fields: {country: 225, created: !!timestamp '2010-03-24 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 13, modified: !!timestamp '2012-08-04 00:00:00',
+    name: 'Epic Comics, Inc.', notes: '', parent: 78, reserved: false, url: '', year_began: 1988,
+    year_began_uncertain: false, year_ended: 1989, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 575
+- fields: {country: 225, created: !!timestamp '2010-01-02 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 2, modified: !!timestamp '2012-08-04 00:00:00',
+    name: 'Euclid Publishing Company, Inc.', notes: '', parent: 78, reserved: false,
+    url: '', year_began: 1944, year_began_uncertain: false, year_ended: 1945, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 272
+- fields: {country: 225, created: !!timestamp '2010-01-28 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 0, modified: !!timestamp '2012-08-04 00:00:00',
+    name: 'Exclusive Detective Stories, Inc.', notes: '', parent: 78, reserved: false,
+    url: '', year_began: null, year_began_uncertain: false, year_ended: 1968, year_ended_uncertain: true}
+  model: gcd.indiciapublisher
+  pk: 383
+- fields: {country: 225, created: !!timestamp '2010-01-02 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 7, modified: !!timestamp '2013-01-07 11:43:35',
+    name: 'Fantasy Comics, Incorporated', notes: '', parent: 78, reserved: false,
+    url: '', year_began: null, year_began_uncertain: false, year_ended: 1968, year_ended_uncertain: true}
+  model: gcd.indiciapublisher
+  pk: 271
+- fields: {country: 225, created: !!timestamp '2010-01-09 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 15, modified: !!timestamp '2012-08-04 00:00:00',
+    name: 'Foto Parade, Inc.', notes: '', parent: 78, reserved: false, url: '', year_began: 1951,
+    year_began_uncertain: false, year_ended: 1954, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 303
+- fields: {country: 225, created: !!timestamp '2010-01-13 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 81, modified: !!timestamp '2012-10-01 00:00:00',
+    name: 'Gem Publications, Inc.', notes: 'Used until the end of 1958 (last cover-date:
+      Feb 1959)', parent: 78, reserved: false, url: '', year_began: 1945, year_began_uncertain: false,
+    year_ended: 1959, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 327
+- fields: {country: 225, created: !!timestamp '2010-01-02 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 63, modified: !!timestamp '2013-05-08 11:26:16',
+    name: Hercules Publishing Corporation, notes: '', parent: 78, reserved: false,
+    url: '', year_began: null, year_began_uncertain: false, year_ended: 1964, year_ended_uncertain: true}
+  model: gcd.indiciapublisher
+  pk: 254
+- fields: {country: 225, created: !!timestamp '2011-04-07 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 77, modified: !!timestamp '2013-04-04 21:45:32',
+    name: 'Humorama, Inc.', notes: Published numerous gag cartoon magazines., parent: 78,
+    reserved: false, url: '', year_began: 1957, year_began_uncertain: true, year_ended: 1979,
+    year_ended_uncertain: true}
+  model: gcd.indiciapublisher
+  pk: 1632
+- fields: {country: 225, created: !!timestamp '2010-01-02 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 53, modified: !!timestamp '2013-04-10 02:42:25',
+    name: Interstate Publishing Corp., notes: '', parent: 78, reserved: false, url: '',
+    year_began: null, year_began_uncertain: false, year_ended: 1966, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 250
+- fields: {country: 225, created: !!timestamp '2010-01-09 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 8, modified: !!timestamp '2012-08-04 00:00:00',
+    name: 'Jaygee Publications, Inc.', notes: '', parent: 78, reserved: false, url: '',
+    year_began: null, year_began_uncertain: false, year_ended: 1957, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 308
+- fields: {country: 225, created: !!timestamp '2010-01-01 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 47, modified: !!timestamp '2013-03-20 14:15:22',
+    name: Leading Comic Corp., notes: '', parent: 78, reserved: false, url: '', year_began: 1948,
+    year_began_uncertain: false, year_ended: 1952, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 248
+- fields: {country: 225, created: !!timestamp '2010-01-24 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 117, modified: !!timestamp '2013-05-05 01:35:05',
+    name: Leading Magazine Corp., notes: '', parent: 78, reserved: false, url: '',
+    year_began: null, year_began_uncertain: false, year_ended: 1968, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 362
+- fields: {country: 225, created: !!timestamp '2010-01-09 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 0, modified: !!timestamp '2012-08-04 00:00:00',
+    name: 'Lion Books, Inc.', notes: '', parent: 78, reserved: false, url: '', year_began: null,
+    year_began_uncertain: false, year_ended: 1968, year_ended_uncertain: true}
+  model: gcd.indiciapublisher
+  pk: 300
+- fields: {country: 225, created: !!timestamp '2010-01-02 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 6, modified: !!timestamp '2012-10-02 00:00:00',
+    name: London Publishing Corporation, notes: '', parent: 78, reserved: false, url: '',
+    year_began: 1945, year_began_uncertain: false, year_ended: 1945, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 261
+- fields: {country: 225, created: !!timestamp '2010-09-02 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 73, modified: !!timestamp '2013-04-21 23:27:48',
+    name: Magazine Management Co., notes: 'Used in 1969 and for many, if not all,
+      of the black and white magazines that Marvel published in the early to mid 1970''s.',
+    parent: 78, reserved: false, url: '', year_began: 1969, year_began_uncertain: false,
+    year_ended: 1977, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 1059
+- fields: {country: 225, created: !!timestamp '2009-12-09 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 813, modified: !!timestamp '2013-05-03 18:49:40',
+    name: 'Magazine Management Co., Inc.', notes: '', parent: 78, reserved: false,
+    url: '', year_began: 1969, year_began_uncertain: false, year_ended: 1978, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 81
+- fields: {country: 225, created: !!timestamp '2012-11-08 04:02:30', deleted: false,
+    is_surrogate: false, issue_count: 2, modified: !!timestamp '2013-02-26 08:01:53',
+    name: Magazine Management Company, notes: 'Used in 1969 on Cartoons and Gags (Marvel,
+      1958 series).', parent: 78, reserved: false, url: '', year_began: null, year_began_uncertain: true,
+    year_ended: null, year_ended_uncertain: true}
+  model: gcd.indiciapublisher
+  pk: 3042
+- fields: {country: 225, created: !!timestamp '2010-03-17 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 12, modified: !!timestamp '2013-02-19 15:55:04',
+    name: 'Magazine Management Company, Inc', notes: '', parent: 78, reserved: false,
+    url: '', year_began: 1970, year_began_uncertain: false, year_ended: 1976, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 548
+- fields: {country: 225, created: !!timestamp '2012-10-25 14:48:18', deleted: false,
+    is_surrogate: false, issue_count: 2, modified: !!timestamp '2013-03-04 10:34:40',
+    name: 'Magazine Management, Inc.', notes: 'Used in 1969, on Cartoon Laughs (Marvel,
+      1963 series).', parent: 78, reserved: false, url: '', year_began: null, year_began_uncertain: true,
+    year_ended: null, year_ended_uncertain: true}
+  model: gcd.indiciapublisher
+  pk: 3010
+- fields: {country: 225, created: !!timestamp '2010-01-09 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 142, modified: !!timestamp '2013-02-19 17:38:36',
+    name: Male Publishing Corp., notes: '', parent: 78, reserved: false, url: '',
+    year_began: 1953, year_began_uncertain: false, year_ended: 1967, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 297
+- fields: {country: 225, created: !!timestamp '2010-04-17 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 40, modified: !!timestamp '2013-02-24 17:27:59',
+    name: 'Malibu Comics Entertainment, Inc.', notes: '', parent: 78, reserved: false,
+    url: '', year_began: 1995, year_began_uncertain: false, year_ended: 1996, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 682
+- fields: {country: 225, created: !!timestamp '2009-12-12 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 68, modified: !!timestamp '2013-05-08 21:37:41',
+    name: 'Manvis Publications, Inc.', notes: '', parent: 78, reserved: false, url: '',
+    year_began: 1943, year_began_uncertain: false, year_ended: 1959, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 100
+- fields: {country: 225, created: !!timestamp '2013-01-24 05:46:41', deleted: false,
+    is_surrogate: false, issue_count: 2, modified: !!timestamp '2013-02-10 09:53:30',
+    name: Margood Publishing Corp., notes: '', parent: 78, reserved: false, url: '',
+    year_began: null, year_began_uncertain: true, year_ended: null, year_ended_uncertain: true}
+  model: gcd.indiciapublisher
+  pk: 3179
+- fields: {country: 225, created: !!timestamp '2010-01-02 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 21, modified: !!timestamp '2013-01-01 19:36:51',
+    name: Margood Publishing Corporation, notes: '', parent: 78, reserved: false,
+    url: '', year_began: 1947, year_began_uncertain: true, year_ended: 1957, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 251
+- fields: {country: 225, created: !!timestamp '2010-01-02 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 39, modified: !!timestamp '2012-08-13 00:00:00',
+    name: Marjean Magazine Corp., notes: '', parent: 78, reserved: false, url: '',
+    year_began: 1948, year_began_uncertain: false, year_ended: 1957, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 255
+- fields: {country: 225, created: !!timestamp '2010-11-24 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 5, modified: !!timestamp '2013-03-01 06:48:52',
+    name: 'Marvel Characters, Inc.', notes: '', parent: 78, reserved: false, url: '',
+    year_began: 1996, year_began_uncertain: false, year_ended: 1998, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 1225
+- fields: {country: 225, created: !!timestamp '2009-12-07 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 8140, modified: !!timestamp '2013-05-15 01:17:36',
+    name: Marvel Comics, notes: 'Replaced "Marvel Comics Group" mostly starting with
+      issues cover-dated June 1987, although at least one May 1987 issue was published
+      on this indicia publisher.  Replaced by "Marvel Publishing, Inc." around February
+      2006, although at least one January 2006 issue already has the new company listed.',
+    parent: 78, reserved: false, url: 'http://www.marvel.com/', year_began: 1987,
+    year_began_uncertain: false, year_ended: 2006, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 31
+- fields: {country: 225, created: !!timestamp '2009-12-07 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 4533, modified: !!timestamp '2013-05-13 17:53:47',
+    name: Marvel Comics Group, notes: '', parent: 78, reserved: false, url: '', year_began: 1973,
+    year_began_uncertain: false, year_ended: 1987, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 26
+- fields: {country: 225, created: !!timestamp '2011-06-11 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 1, modified: !!timestamp '2011-06-12 00:00:00',
+    name: Marvel Comics Group and DC Comics Inc., notes: '', parent: 78, reserved: false,
+    url: '', year_began: 1982, year_began_uncertain: false, year_ended: 1982, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 1795
+- fields: {country: 75, created: !!timestamp '2010-09-01 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 10, modified: !!timestamp '2012-10-15 00:00:00',
+    name: Marvel Comics LTD, notes: '', parent: 78, reserved: false, url: '', year_began: 1994,
+    year_began_uncertain: false, year_ended: 1995, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 1057
+- fields: {country: 75, created: !!timestamp '2011-08-28 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 85, modified: !!timestamp '2013-05-14 13:08:36',
+    name: Marvel Comics UK Ltd, notes: Used for the Marvel Comics UK series published
+      in the US in the first half of the 1990s., parent: 78, reserved: false, url: '',
+    year_began: 1992, year_began_uncertain: false, year_ended: 1995, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 2013
+- fields: {country: 225, created: !!timestamp '2010-05-16 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 651, modified: !!timestamp '2013-04-23 06:15:48',
+    name: 'Marvel Comics, A New World Company', notes: '', parent: 78, reserved: false,
+    url: '', year_began: 1987, year_began_uncertain: false, year_ended: 1989, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 792
+- fields: {country: 225, created: !!timestamp '2010-05-31 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 97, modified: !!timestamp '2013-02-09 13:17:20',
+    name: 'Marvel Comics, A New World Pictures Company', notes: '', parent: 78, reserved: false,
+    url: '', year_began: 1987, year_began_uncertain: false, year_ended: 1987, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 832
+- fields: {country: 225, created: !!timestamp '2010-01-02 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 132, modified: !!timestamp '2012-07-22 00:00:00',
+    name: 'Marvel Comics, Inc.', notes: 'End date uncertain at this time.  Used continuously
+      from 1944 at least into the mid to late 50''s, and again in the late 60''s.  No
+      known uses after the 60''s.  Note that "Marvel Comics", without the "Inc." was
+      used for quite some time in the 80''s, 90''s and 00''s but is considered a distinct
+      company.', parent: 78, reserved: false, url: '', year_began: 1944, year_began_uncertain: false,
+    year_ended: 1969, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 252
+- fields: {country: 225, created: !!timestamp '2010-12-30 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 22, modified: !!timestamp '2013-04-15 14:06:20',
+    name: 'Marvel Enterprises, Inc.', notes: '', parent: 78, reserved: false, url: '',
+    year_began: 1999, year_began_uncertain: false, year_ended: 2010, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 1304
+- fields: {country: 225, created: !!timestamp '2010-04-16 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 116, modified: !!timestamp '2013-05-02 06:15:42',
+    name: 'Marvel Entertainment Group, Inc.', notes: '', parent: 78, reserved: false,
+    url: '', year_began: 1988, year_began_uncertain: false, year_ended: 2008, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 671
+- fields: {country: 225, created: !!timestamp '2013-03-10 21:09:24', deleted: false,
+    is_surrogate: false, issue_count: 1, modified: !!timestamp '2013-03-11 07:28:17',
+    name: 'Marvel Entertainment Group, Inc. and DC Comics Inc.', notes: '', parent: 78,
+    reserved: false, url: '', year_began: 1991, year_began_uncertain: false, year_ended: 1991,
+    year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 3262
+- fields: {country: 225, created: !!timestamp '2010-07-22 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 21, modified: !!timestamp '2013-05-11 21:47:16',
+    name: 'Marvel Entertainment, Inc.', notes: 'Last used in March 2010 and replaced
+      by Marvel Entertainment, LLC', parent: 78, reserved: false, url: '', year_began: null,
+    year_began_uncertain: false, year_ended: 2010, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 955
+- fields: {country: 75, created: !!timestamp '2011-03-14 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 0, modified: !!timestamp '2012-08-04 00:00:00',
+    name: Marvel Frontier Comics, notes: '', parent: 78, reserved: false, url: '',
+    year_began: 1993, year_began_uncertain: false, year_ended: 1994, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 1550
+- fields: {country: 225, created: !!timestamp '2012-01-18 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 1, modified: !!timestamp '2012-08-04 00:00:00',
+    name: Marvel Music, notes: 'Listed in full as "Marvel Music, an imprint of Marvel
+      Comics."', parent: 78, reserved: false, url: '', year_began: 1994, year_began_uncertain: false,
+    year_ended: 1994, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 2439
+- fields: {country: 225, created: !!timestamp '2009-12-07 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 3081, modified: !!timestamp '2013-05-15 00:44:57',
+    name: 'Marvel Publishing, Inc.', notes: 'A subsidiary of Marvel Entertainment,
+      Inc.  Replaced "Marvel Comics" on most series with issues cover date February
+      2006, although there is at least one January 2006 issue with this indicia publisher.  Replaced
+      by "Marvel Worldwide, Inc." mostly with issues cover-dated April 2010, but for
+      at least one series with the May 2010 issue.', parent: 78, reserved: false,
+    url: '', year_began: 2005, year_began_uncertain: false, year_ended: 2010, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 16
+- fields: {country: 225, created: !!timestamp '2010-02-07 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 3539, modified: !!timestamp '2013-05-13 04:36:50',
+    name: 'Marvel Worldwide, Inc.', notes: "A subsidiary of Marvel Entertainment,\
+      \ LLC.\r\nThis first appeared on most (but not all) Marvel issues cover-dated\
+      \ April 2010.", parent: 78, reserved: false, url: 'http://www.marvel.com/',
+    year_began: 2010, year_began_uncertain: false, year_ended: null, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 401
+- fields: {country: 225, created: !!timestamp '2009-12-16 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 27, modified: !!timestamp '2013-03-20 14:16:28',
+    name: Medalion Publishing Corp., notes: 'Dates unconfirmed, but the publisher
+      existed for at least these years.  "Medalion" (with one "l") is the correct
+      spelling.', parent: 78, reserved: false, url: '', year_began: 1943, year_began_uncertain: false,
+    year_ended: 1957, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 170
+- fields: {country: 225, created: !!timestamp '2010-01-09 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 50, modified: !!timestamp '2013-03-20 16:10:15',
+    name: Miss America Publishing Corp., notes: '', parent: 78, reserved: true, url: '',
+    year_began: 1944, year_began_uncertain: false, year_ended: 1958, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 310
+- fields: {country: 225, created: !!timestamp '2010-01-09 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 27, modified: !!timestamp '2012-08-04 00:00:00',
+    name: Mutual Magazine Corp., notes: '', parent: 78, reserved: false, url: '',
+    year_began: 1949, year_began_uncertain: false, year_ended: 1957, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 298
+- fields: {country: 225, created: !!timestamp '2010-01-02 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 127, modified: !!timestamp '2013-02-27 22:55:41',
+    name: 'Newsstand Publications, Inc.', notes: '', parent: 78, reserved: true, url: '',
+    year_began: 1943, year_began_uncertain: false, year_ended: 1967, year_ended_uncertain: true}
+  model: gcd.indiciapublisher
+  pk: 269
+- fields: {country: 225, created: !!timestamp '2010-01-09 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 87, modified: !!timestamp '2013-04-20 08:28:35',
+    name: Non-Pareil Publishing Corp., notes: '', parent: 78, reserved: true, url: '',
+    year_began: 1946, year_began_uncertain: false, year_ended: 1968, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 296
+- fields: {country: 225, created: !!timestamp '2010-01-02 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 5, modified: !!timestamp '2013-05-15 02:27:58',
+    name: 'Official Comics, Inc.', notes: '', parent: 78, reserved: false, url: '',
+    year_began: 1947, year_began_uncertain: false, year_ended: 1955, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 262
+- fields: {country: 225, created: !!timestamp '2010-08-08 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 36, modified: !!timestamp '2012-11-25 19:30:05',
+    name: Official Magazine Corp., notes: '', parent: 78, reserved: false, url: '',
+    year_began: 1953, year_began_uncertain: false, year_ended: 1968, year_ended_uncertain: true}
+  model: gcd.indiciapublisher
+  pk: 994
+- fields: {country: 225, created: !!timestamp '2010-01-09 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 38, modified: !!timestamp '2012-08-04 00:00:00',
+    name: 'Olympia Publications, Inc.', notes: '', parent: 78, reserved: false, url: '',
+    year_began: 1956, year_began_uncertain: false, year_ended: 1968, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 302
+- fields: {country: 225, created: !!timestamp '2010-01-16 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 23, modified: !!timestamp '2013-05-03 05:15:15',
+    name: Perfect Film & Chemical Corp., notes: 'Only appears in December 1968 and
+      January 1969 issues? (Magazine Management Co. begins in February 1969)', parent: 78,
+    reserved: true, url: '', year_began: 1968, year_began_uncertain: false, year_ended: 1969,
+    year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 341
+- fields: {country: 225, created: !!timestamp '2010-01-09 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 23, modified: !!timestamp '2013-01-01 18:32:41',
+    name: 'Postal Publications, Inc.', notes: '', parent: 78, reserved: false, url: '',
+    year_began: 1948, year_began_uncertain: false, year_ended: 1957, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 299
+- fields: {country: 225, created: !!timestamp '2010-01-02 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 90, modified: !!timestamp '2012-09-17 00:00:00',
+    name: 'Prime Publications, Inc.', notes: '', parent: 78, reserved: false, url: '',
+    year_began: 1948, year_began_uncertain: false, year_ended: 1957, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 267
+- fields: {country: 225, created: !!timestamp '2010-03-06 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 15, modified: !!timestamp '2013-01-22 12:27:02',
+    name: 'Red Circle Magazines, Inc.', notes: '', parent: 78, reserved: false, url: '',
+    year_began: null, year_began_uncertain: false, year_ended: 1959, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 498
+- fields: {country: 225, created: !!timestamp '2009-12-12 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 9, modified: !!timestamp '2012-07-13 00:00:00',
+    name: 'Select Publications, Inc.', notes: "Actual periods of use:  1942-1943;\
+      \ 1949-1950\r\n", parent: 78, reserved: false, url: '', year_began: 1942, year_began_uncertain: false,
+    year_ended: 1950, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 99
+- fields: {country: 225, created: !!timestamp '2010-01-28 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 0, modified: !!timestamp '2012-08-04 00:00:00',
+    name: 'Skyline Publications, Inc.', notes: '', parent: 78, reserved: false, url: '',
+    year_began: null, year_began_uncertain: false, year_ended: 1957, year_ended_uncertain: true}
+  model: gcd.indiciapublisher
+  pk: 382
+- fields: {country: 225, created: !!timestamp '2009-12-16 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 15, modified: !!timestamp '2011-06-01 00:00:00',
+    name: 'Snap Publishing Co., Inc.', notes: Only used on the Spring 1943 - Winter
+      1946-47 issues of The Human Torch., parent: 78, reserved: false, url: '', year_began: 1943,
+    year_began_uncertain: false, year_ended: 1946, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 174
+- fields: {country: 225, created: !!timestamp '2010-01-09 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 118, modified: !!timestamp '2012-10-03 00:00:00',
+    name: 'Sphere Publications, Inc.', notes: '', parent: 78, reserved: false, url: '',
+    year_began: 1951, year_began_uncertain: false, year_ended: 1958, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 306
+- fields: {country: 225, created: !!timestamp '2010-01-09 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 49, modified: !!timestamp '2013-01-07 21:06:29',
+    name: 'Sports Action, Inc.', notes: '', parent: 78, reserved: false, url: '',
+    year_began: 1950, year_began_uncertain: false, year_ended: 1957, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 301
+- fields: {country: 225, created: !!timestamp '2009-12-09 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 147, modified: !!timestamp '2013-05-14 03:04:04',
+    name: 'Timely Comics, Inc.', notes: End date uncertain.  This indicia publisher
+      was used at least as late as 1957 (on romance titles) after which at least some
+      of those titles switched to a different indicia publisher., parent: 78, reserved: false,
+    url: '', year_began: 1941, year_began_uncertain: false, year_ended: 1957, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 87
+- fields: {country: 225, created: !!timestamp '2012-11-05 21:10:48', deleted: false,
+    is_surrogate: false, issue_count: 61, modified: !!timestamp '2013-04-21 16:54:27',
+    name: 'Timely Features, Inc.', notes: '', parent: 78, reserved: false, url: '',
+    year_began: null, year_began_uncertain: false, year_ended: null, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 3039
+- fields: {country: 225, created: !!timestamp '2013-04-17 02:58:07', deleted: false,
+    is_surrogate: false, issue_count: 5, modified: !!timestamp '2013-04-17 17:57:34',
+    name: Timely Illustrated Features, notes: '', parent: 78, reserved: false, url: '',
+    year_began: null, year_began_uncertain: false, year_ended: null, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 3387
+- fields: {country: 225, created: !!timestamp '2009-12-11 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 32, modified: !!timestamp '2010-09-14 00:00:00',
+    name: Timely Publications, notes: "This is the original business name under which\
+      \ Martin Goodman began publishing comics in 1939.  It was used on all issues\
+      \ up to and including those cover-dated March 1941 or Winter 1940-1941, spanning\
+      \ the period from Marvel Comics #1 to Captain America Comics #1.  It was replaced\
+      \ by Timely Comics, Inc. starting with all issues cover-dated April 1941 or\
+      \ Spring 1941.\r\n\r\nEditorial address during the 1939-1941 period: 330 W.\
+      \ 42nd St., N. Y., N. Y.\r\nPublication addresses:\r\n  * Marvel Comics #1:\
+      \ 81 Spring St., Newark, N. J.\r\n  * Dec. 1939 - May 1940 (Marvel Mystery [#5-7\
+      \ unconfirmed] and Daring Mystery):  8 Lord St., Buffalo, N. Y.\r\n  * June\
+      \ 1940 onwards: Meriden, Conn. [Marvel Mystery #8 unconfirmed]\r\nMystic Comics\
+      \ #1 and #2 (March and April 1940) give no separate publication address and\
+      \ filed for 2nd class status in New York, N. Y.  Mystic Comics #3 (June, 1940)\
+      \ gives no separate publication address but filed for 2nd class status in Meriden,\
+      \ Conn.  As of #4, the publication address is Meriden, Conn.\r\n", parent: 78,
+    reserved: false, url: '', year_began: 1939, year_began_uncertain: false, year_ended: 1941,
+    year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 98
+- fields: {country: 225, created: !!timestamp '2011-06-04 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 4, modified: !!timestamp '2012-09-19 00:00:00',
+    name: U.S.A. Comic Corp., notes: 'Almost certainly a typo for "U.S.A. Comic Magazine
+      Corp.", this name was used only on four issues of All-Winners Comics, all of
+      which were copyright U.S.A. Comic Magazine Corp.', parent: 78, reserved: false,
+    url: '', year_began: 1941, year_began_uncertain: false, year_ended: 1942, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 1777
+- fields: {country: 225, created: !!timestamp '2009-12-09 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 104, modified: !!timestamp '2013-03-20 14:18:08',
+    name: U.S.A. Comic Magazine Corp., notes: '', parent: 78, reserved: false, url: '',
+    year_began: 1941, year_began_uncertain: false, year_ended: 1956, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 90
+- fields: {country: 225, created: !!timestamp '2010-05-16 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 0, modified: !!timestamp '2010-05-16 00:00:00',
+    name: 'Universal Crime Stories, Inc.', notes: 'Dates uncertain.  This company
+      was used to produce two 132-page squarebound reprint volumes in 1942 and 1943
+      which had limited distrubtion.  According to Frank Motler, it was used very
+      sparingly elsewhere.', parent: 78, reserved: false, url: '', year_began: 1942,
+    year_began_uncertain: false, year_ended: 1943, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 796
+- fields: {country: 225, created: !!timestamp '2010-01-09 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 359, modified: !!timestamp '2012-10-02 00:00:00',
+    name: 'Vista Publications, Inc.', notes: '', parent: 78, reserved: false, url: '',
+    year_began: 1961, year_began_uncertain: true, year_ended: 1968, year_ended_uncertain: true}
+  model: gcd.indiciapublisher
+  pk: 307
+- fields: {country: 225, created: !!timestamp '2012-10-21 15:42:39', deleted: false,
+    is_surrogate: false, issue_count: 148, modified: !!timestamp '2013-04-30 03:54:46',
+    name: 'Visual Varieties, Inc.', notes: '', parent: 78, reserved: false, url: '',
+    year_began: 1961, year_began_uncertain: true, year_ended: 1981, year_ended_uncertain: true}
+  model: gcd.indiciapublisher
+  pk: 3003
+- fields: {country: 225, created: !!timestamp '2009-12-24 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 28, modified: !!timestamp '2012-09-24 00:00:00',
+    name: 'Warwick Publications, Inc.', notes: Specific start and end dates unknown
+      at this time., parent: 78, reserved: false, url: '', year_began: 1956, year_began_uncertain: false,
+    year_ended: 1958, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 217
+- fields: {country: 225, created: !!timestamp '2010-01-02 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 86, modified: !!timestamp '2013-04-21 18:57:44',
+    name: 'Western Fiction Publishing Co., Inc.', notes: '', parent: 78, reserved: false,
+    url: '', year_began: 1943, year_began_uncertain: false, year_ended: 1957, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 268
+- fields: {country: 225, created: !!timestamp '2010-01-02 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 12, modified: !!timestamp '2013-01-10 10:46:22',
+    name: 'Young Allies, Inc.', notes: End date Winter 1946-1947, parent: 78, reserved: false,
+    url: '', year_began: 1943, year_began_uncertain: false, year_ended: 1947, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 257
+- fields: {country: 225, created: !!timestamp '2010-03-28 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 23, modified: !!timestamp '2012-12-07 20:27:55',
+    name: 'Zenith Books, Inc.', notes: 'Office of publication: 625 Madison Avenue,
+      New York.', parent: 78, reserved: false, url: '', year_began: 1966, year_began_uncertain: false,
+    year_ended: 1968, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 595
+- fields: {country: 225, created: !!timestamp '2010-01-02 00:00:00', deleted: false,
+    is_surrogate: false, issue_count: 79, modified: !!timestamp '2013-05-12 15:35:55',
+    name: Zenith Publishing Corp., notes: '', parent: 78, reserved: false, url: '',
+    year_began: 1949, year_began_uncertain: false, year_ended: 1964, year_ended_uncertain: false}
+  model: gcd.indiciapublisher
+  pk: 263
+
+
