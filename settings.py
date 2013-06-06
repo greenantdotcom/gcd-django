@@ -95,6 +95,7 @@ INSTALLED_APPS = (
     'imagekit',
     'south',
     'apps.api',
+    'tastypie',
 )
 
 # Used to provide a seed in secret-key hashing algorithms.

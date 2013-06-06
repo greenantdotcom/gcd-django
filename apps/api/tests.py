@@ -15,24 +15,25 @@ from django.test import TestCase
 ### http://thomas.pelletier.im/2009/12/test-your-django-piston-api-with-auth/
 
 class PublisherTest(TestCase):
-    def test_publisher_list(self):
-        response = self.client.get('/api/publisher', {})
-        self.assertEqual(response.status_code, 200)
+    # def test_publisher_list(self):
+    #     response = self.client.get('/api/publisher', {})
+    #     self.assertEqual(response.status_code, 200)
     
     def test_real_publisher_info(self):
-        response = self.client.get('/api/publisher/88', {})
+        response = self.client.get('/api/publisher/78', {})
+        
         self.assertEqual(response.status_code, 200)
     
     def test_real_publisher_brands(self):
-        response = self.client.get('/api/publisher/88/brands', {})
+        response = self.client.get('/api/publisher/78/brands', {})
         self.assertEqual(response.status_code, 200)
     
     def test_real_publisher_indicia_publishers(self):
-        response = self.client.get('/api/publisher/88/indicia_publishers', {})
+        response = self.client.get('/api/publisher/78/indicia_publishers', {})
         self.assertEqual(response.status_code, 200)
     
     def test_real_publisher_series_found(self):
-        response = self.client.get('/api/publisher/88/series')
+        response = self.client.get('/api/publisher/78/series')
         self.assertEqual(response.status_code, 200)
         ## assert size
     
